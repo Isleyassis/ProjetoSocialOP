@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <testimonials/>
 </template>
 
 <script>
