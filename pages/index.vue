@@ -1,5 +1,8 @@
 <template>
-  <testimonials />
+   <div>
+     <testimonials />
+     <authors />
+   </div>
 </template>
 
 <script>

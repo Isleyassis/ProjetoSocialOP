@@ -100,6 +100,10 @@
 
 <style scoped>
 
+.main-testimonials {
+    margin-bottom: 50px;
+}
+
 .main-testimonials__box {
     border: 2px solid #146400;
     padding: 20px;
@@ -149,10 +153,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 20px; 
-}
-
-.main-testimonials__text {
-    padding-left: 80px;
 }
 
 </style>
