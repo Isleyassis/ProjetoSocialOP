@@ -10,18 +10,16 @@
                     <b-row>
                         <b-col col-lg="4">
                             <ul>
-                                <li>Caio dos Santos Ferreira</li>
-                                <li>Erick de Lima Silva</li>
-                                <li>Francisca Leticia Lima da Silva</li>
-                                <li>Francisco Gabriel M. Alburquerque</li>
+                                <li v-for="(part, index) in participants" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
                             </ul>
                         </b-col>
                         <b-col col-lg="4"> 
                             <ul>
-                                <li>John Herbert Martins Frota</li>
-                                <li>Michael Paulino de Souza</li>
-                                <li>Rodrigo da Silva Lima</li>
-                                <li>Widson Ferreira dos Santos</li>
+                                <li v-for="(part, index) in participants" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
                             </ul>  
                         </b-col>
                         <b-col col-lg="4"> 
@@ -33,58 +31,54 @@
                 </b-container>
             </div>
 
-             <div class="main-authors__writers">
+             <div class="main-authors__developers">
                 <b-container>
-                    <h5 class="writers">ESCRITORES</h5>
+                    <h5 class="developers">DESENVOLVEDORES</h5>
                     <b-row>
+                        <b-col col-lg="4"> 
+                            <div class="main-developers__wrapper-img">
+                                <img src="/Vetor Desenvolvedores.png" alt="imagem">
+                            </div>
+                        </b-col>
                         <b-col col-lg="4">
                             <ul>
-                                <li>Caio dos Santos Ferreira</li>
-                                <li>Erick de Lima Silva</li>
-                                <li>Francisca Leticia Lima da Silva</li>
-                                <li>Francisco Gabriel M. Alburquerque</li>
+                                 <li v-for="(part, index) in participants" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
                             </ul>
                         </b-col>
                         <b-col col-lg="4"> 
                             <ul>
-                                <li>John Herbert Martins Frota</li>
-                                <li>Michael Paulino de Souza</li>
-                                <li>Rodrigo da Silva Lima</li>
-                                <li>Widson Ferreira dos Santos</li>
+                                <li v-for="(part, index) in participants" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
                             </ul>  
-                        </b-col>
-                        <b-col col-lg="4"> 
-                            <div class="main-authors__wrapper-img">
-                                <img src="/Vetor Escritores.png" alt="imagem">
-                            </div>
                         </b-col>
                     </b-row>              
                 </b-container>
             </div>
 
-             <div class="main-authors__writers">
+             <div class="main-authors__researchers">
                 <b-container>
-                    <h5 class="writers">ESCRITORES</h5>
+                    <h5 class="researchers">PESQUISADORES</h5>
                     <b-row>
                         <b-col col-lg="4">
                             <ul>
-                                <li>Caio dos Santos Ferreira</li>
-                                <li>Erick de Lima Silva</li>
-                                <li>Francisca Leticia Lima da Silva</li>
-                                <li>Francisco Gabriel M. Alburquerque</li>
+                                <li v-for="(part, index) in participants" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
                             </ul>
                         </b-col>
                         <b-col col-lg="4"> 
                             <ul>
-                                <li>John Herbert Martins Frota</li>
-                                <li>Michael Paulino de Souza</li>
-                                <li>Rodrigo da Silva Lima</li>
-                                <li>Widson Ferreira dos Santos</li>
+                                 <li v-for="(part, index) in participants" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
                             </ul>  
                         </b-col>
                         <b-col col-lg="4"> 
-                            <div class="main-authors__wrapper-img">
-                                <img src="/Vetor Escritores.png" alt="imagem">
+                            <div class="main-researchers__wrapper-img">
+                                <img src="/Vetor Prsquisadores.png" alt="imagem">
                             </div>
                         </b-col>
                     </b-row>              
@@ -94,12 +88,35 @@
     </section>
 </template>
 
+<script>
+export default {
+    data() {
+        return {
+            participants: [
+                {
+                    students: 'John Herbert Martins Frota'
+                },
+                {
+                    students: 'Michael Paulino de Souza'
+                },
+                {
+                    students: 'Rodrigo da Silva Lima'
+                },
+                {
+                    students: 'Widson Ferreira dos Santos'
+                }
+            ]
+        }
+    }
+}
+</script>
+
 <style scoped>
     .main-authors__title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
     }
 
     .main-authors__title h3 {
@@ -117,21 +134,21 @@
         content: '';
         bottom: -10%;
         left: 10%;
-        width: 80%;
+        width: 100px;
         height: 4px;
         background-color: #22A800;
     }
 
     .main-authors__writers {
-        background-color: lightgreen;
+        background-color: rgba(89, 187, 89, 0.685);
         position: relative;
         padding: 20px 0;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
 
     .writers {
         position: absolute;
-        left: 30%;
+        left: 28%;
         top: -13px;
         font-weight: bolder;
     }
@@ -141,10 +158,10 @@
     }
 
     .main-authors__wrapper-img {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         position: absolute;
-        top: -80px;
+        top: -100px;
         left: 0; 
     }
 
@@ -153,4 +170,67 @@
         height: 100%;
     }
 
+
+     .main-authors__developers {
+        background-color: rgba(205, 238, 144, 0.644);
+        position: relative;
+        padding: 20px 0;
+        margin-bottom: 60px;
+    }
+
+    .developers {
+        position: absolute;
+        left: 55%;
+        top: -13px;
+        font-weight: bolder;
+    }
+
+    .main-authors__developers ul {
+        list-style: none;
+    }
+
+    .main-developers__wrapper-img {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: -100px;
+        right: 20px; 
+    }
+
+    .main-developers__wrapper-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    .main-authors__researchers {
+        background-color: rgb(211, 209, 100);
+        position: relative;
+        padding: 20px 0;
+        margin-bottom: 60px;
+    }
+
+    .researchers {
+        position: absolute;
+        left: 28%;
+        top: -13px;
+        font-weight: bolder;
+    }
+
+    .main-authors__researchers ul {
+        list-style: none;
+    }
+
+    .main-researchers__wrapper-img {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: -100px;
+        left: 0; 
+    }
+
+    .main-researchers__wrapper-img img{
+        width: 100%;
+        height: 100%;
+    }
 </style>

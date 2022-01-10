@@ -138,8 +138,8 @@
     position: absolute;
     content: '';
     bottom: -10%;
-    left: 10%;
-    width: 80%;
+    left: 20%;
+    width: 100px;
     height: 4px;
     background-color: #22A800;
 }
