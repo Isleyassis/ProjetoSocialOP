@@ -1,6 +1,6 @@
 <template>
    <div>
-     <testimonials />
+     <!-- <testimonials /> -->
      <authors />
    </div>
 </template>

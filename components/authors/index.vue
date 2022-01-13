@@ -3,21 +3,21 @@
         <div class="main-authors__title">
             <h3> Autores </h3>
         </div>
-        <div class="main-authors__wrapper">
+        <div class="main-authors__wrapper-dektop">
             <div class="main-authors__writers">
                 <b-container>
                     <h5 class="writers">ESCRITORES</h5>
                     <b-row>
                         <b-col col-lg="4">
                             <ul>
-                                <li v-for="(part, index) in participants" :key="index"> 
+                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
                         <b-col col-lg="4"> 
                             <ul>
-                                <li v-for="(part, index) in participants" :key="index"> 
+                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>  
@@ -42,14 +42,14 @@
                         </b-col>
                         <b-col col-lg="4">
                             <ul>
-                                 <li v-for="(part, index) in participants" :key="index"> 
+                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
                         <b-col col-lg="4"> 
                             <ul>
-                                <li v-for="(part, index) in participants" :key="index"> 
+                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>  
@@ -64,14 +64,14 @@
                     <b-row>
                         <b-col col-lg="4">
                             <ul>
-                                <li v-for="(part, index) in participants" :key="index"> 
+                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
                         <b-col col-lg="4"> 
                             <ul>
-                                 <li v-for="(part, index) in participants" :key="index"> 
+                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>  
@@ -85,6 +85,71 @@
                 </b-container>
             </div>
         </div>
+
+        <!-- Mobile -->
+
+        <div class="main-authors__wrapper-mobile">
+            <div class="main-authors__writers">
+                <b-container>
+                    <h5 class="writers-mobile">ESCRITORES</h5>
+                    <b-row>
+                        <b-col col="6">
+                            <ul>
+                                <li v-for="(part, index) in participantsTogether" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
+                            </ul>
+                        </b-col>
+                        <b-col col="6"> 
+                            <div class="main-writers__wrapper-mobile-img">
+                                <img src="/Vetor Escritores.png" alt="imagem">
+                            </div>
+                        </b-col>
+                    </b-row>              
+                </b-container>
+            </div>
+
+             <div class="main-authors__developers">
+                <b-container>
+                    <h5 class="developers-mobile">DESENVOLVEDORES</h5>
+                    <b-row>
+                        <b-col col="6"> 
+                            <div class="main-developers__wrapper-mobile-img">
+                                <img src="/Vetor Desenvolvedores.png" alt="imagem">
+                            </div>
+                        </b-col>
+                        <b-col col="6">
+                            <ul>
+                                <li v-for="(part, index) in participantsTogether" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
+                            </ul>
+                        </b-col>
+                    </b-row>              
+                </b-container>
+            </div>
+
+            <div class="main-authors__researchers">
+                <b-container>
+                    <h5 class="researchers-mobile">ESCRITORES</h5>
+                    <b-row>
+                        <b-col col="6">
+                            <ul>
+                                <li v-for="(part, index) in participantsTogether" :key="index"> 
+                                    {{ part.students }} 
+                                </li>
+                            </ul>
+                        </b-col>
+                        <b-col col="6"> 
+                            <div class="main-researchers__wrapper-mobile-img">
+                                <img src="/Vetor Prsquisadores.png" alt="imagem">
+                            </div>
+                        </b-col>
+                    </b-row>              
+                </b-container>
+            </div>
+        </div>
+
     </section>
 </template>
 
@@ -92,7 +157,7 @@
 export default {
     data() {
         return {
-            participants: [
+            participantsSeparated: [
                 {
                     students: 'John Herbert Martins Frota'
                 },
@@ -105,7 +170,33 @@ export default {
                 {
                     students: 'Widson Ferreira dos Santos'
                 }
-            ]
+            ],
+            participantsTogether: [
+               {
+                    students: 'John Herbert Martins Frota'
+                },
+                {
+                    students: 'Michael Paulino de Souza'
+                },
+                {
+                    students: 'Rodrigo da Silva Lima'
+                },
+                {
+                    students: 'Widson Ferreira dos Santos'
+                },
+                 {
+                    students: 'John Herbert Martins Frota'
+                },
+                {
+                    students: 'Michael Paulino de Souza'
+                },
+                {
+                    students: 'Rodrigo da Silva Lima'
+                },
+                {
+                    students: 'Widson Ferreira dos Santos'
+                }
+            ],
         }
     }
 }
@@ -232,5 +323,135 @@ export default {
     .main-researchers__wrapper-img img{
         width: 100%;
         height: 100%;
+    }
+
+    /* mobile style */
+
+    .main-authors__wrapper-mobile {
+        display: none;
+    }
+
+    .writers-mobile {
+        position: absolute;
+        left: 8%;
+        top: -13px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    .main-authors__wrapper-mobile ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .main-authors__wrapper-mobile ul li {
+        font-size: 11px;
+        font-weight: bolder;
+    }
+
+    .main-writers__wrapper-mobile-img {
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: -10px;
+        right: 0;
+    }
+
+    .main-writers__wrapper-mobile-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+     .developers-mobile {
+        position: absolute;
+        right: 8%;
+        top: -13px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    .main-authors__wrapper-mobile ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .main-authors__wrapper-mobile ul li {
+        font-size: 11px;
+        font-weight: bolder;
+    }
+
+    .main-developers__wrapper-mobile-img {
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: -10px;
+        right: 0;
+    }
+
+    .main-developers__wrapper-mobile-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+     .researchers-mobile {
+        position: absolute;
+        left: 8%;
+        top: -13px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    .main-authors__wrapper-mobile ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .main-authors__wrapper-mobile ul li {
+        font-size: 11px;
+        font-weight: bolder;
+    }
+
+    .main-researchers__wrapper-mobile-img {
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: -10px;
+        right: 0;
+    }
+
+    .main-researchers__wrapper-mobile-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* medias globais */
+
+    @media(max-width: 998px){
+        .container, .container-sm, .container-md{
+            max-width: 100%;
+        }
+    }
+
+    @media(max-width: 765px){
+
+        .main-authors__wrapper-dektop {
+            display: none;
+        }
+
+        .main-authors__wrapper-mobile {
+            display: block;
+        }
+
+        .main-authors__title h3 {
+            font-size: 24px;
+        }
+
+        .main-authors__title h3::after {
+            bottom: 5%;
+            left: 2%;
+        }
     }
 </style>
