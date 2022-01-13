@@ -4,21 +4,21 @@
             <h3>Depoimentos</h3>
         </div>
 
-    <VueSlickCarousel :settings="settings">    
-                <div class="main-testimonials__box" v-for="(test, index) in testimonials" :key="index">
-                    <div class="main-testimonials__wrapper-infos">
-                        <div class="main-testimonials__wrapper-img">
-                            <img :src="test.imgURL" alt="">
-                        </div>
-                            <div class="main-testimonials__wrapper-name">
-                                <h5> {{ test.nameStudent }} </h5>
-                                <small> {{ test.course }} </small>
-                            </div>
-                    </div>
-                    <div class="main-testimonials__text">
-                        <p> {{ test.text }} </p>
-                    </div>
+    <VueSlickCarousel :config="settings">    
+        <div class="main-testimonials__box" v-for="(test, index) in testimonials" :key="index">
+            <div class="main-testimonials__wrapper-infos">
+                <div class="main-testimonials__wrapper-img">
+                    <img :src="test.imgURL" alt="">
                 </div>
+                    <div class="main-testimonials__wrapper-name">
+                        <h5> {{ test.nameStudent }} </h5>
+                        <small> {{ test.course }} </small>
+                    </div>
+            </div>
+            <div class="main-testimonials__text">
+                <p> {{ test.text }} </p>
+            </div>
+        </div>
     </VueSlickCarousel>
     </b-container>
 </template>
