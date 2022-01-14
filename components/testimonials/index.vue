@@ -84,17 +84,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .main-testimonials {
     margin-bottom: 50px;
-}
 
-.main-testimonials__box {
+    .main-testimonials__box {
     border: 2px solid #146400;
     padding: 20px;
     max-width: 510px;
     margin-bottom: 40px;
 }
+}
+
+
 
 .main-testimonials__wrapper-img {
     width: 59px;
