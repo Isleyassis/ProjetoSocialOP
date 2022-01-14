@@ -4,16 +4,16 @@
             <h3>Depoimentos</h3>
         </div>
 
-    <VueSlickCarousel :config="settings">    
+    <VueSlickCarousel v-bind="settings">    
         <div class="main-testimonials__box" v-for="(test, index) in testimonials" :key="index">
             <div class="main-testimonials__wrapper-infos">
                 <div class="main-testimonials__wrapper-img">
                     <img :src="test.imgURL" alt="">
                 </div>
-                    <div class="main-testimonials__wrapper-name">
-                        <h5> {{ test.nameStudent }} </h5>
-                        <small> {{ test.course }} </small>
-                    </div>
+                <div class="main-testimonials__wrapper-name">
+                    <h5> {{ test.nameStudent }} </h5>
+                    <small> {{ test.course }} </small>
+                </div>
             </div>
             <div class="main-testimonials__text">
                 <p> {{ test.text }} </p>
@@ -72,15 +72,13 @@ export default {
                     imgURL: "/juliete.png"
                 },
            ],
-           settings: [
-               {
+           settings: {
                     dots: false,
-                    arrows: true,
+                    arrows: false,
                     slidesToShow: 3,
                     autoplay: true,
                     autoplaySpeed: 2000,
                 }
-           ]
         }
     }
 }
@@ -147,6 +145,12 @@ export default {
 }
 .main-testimonials__wrapper-name h5{
     margin-bottom: 10px; 
+}
+
+@media (max-width: 992px) {
+    .container-md, .container-sm {
+        max-width: 100%;
+    }
 }
 
 </style>
