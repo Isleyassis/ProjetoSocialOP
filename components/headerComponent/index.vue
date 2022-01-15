@@ -4,7 +4,7 @@
             <b-navbar class="main-header__nav">
                 <div class="main-header__nav-wrapper">
                     <a href="#">HOME</a>
-                    <b-dropdown class="main-header__nav-dropdown" id="dropdown-1" text="Cursos" >
+                    <b-dropdown class="main-header__nav-dropdown" variant="link" toggle-class="text-decoration-none" text="Cursos" >
                         <b-dropdown-item>Desenvolvimento</b-dropdown-item>
                         <b-dropdown-item>Enfermagem</b-dropdown-item>
                         <b-dropdown-item>Administração</b-dropdown-item>
@@ -40,6 +40,10 @@
                 display: flex;
                 align-items: center;
 
+                .main-header__nav-dropdown {
+                    color: white;
+                }
+
                 a {
                     color: white;
                     text-decoration: none;
@@ -51,16 +55,9 @@
             color: white;
 
             h1 {
-                font-size: 35px;
+                font-size: 120px;
+                font-weight: bolder;
             }
         }
     }
-
-
-    #dropdown-1__BV_toggle_ {
-                    background-color: transparent; 
-                    padding: 0;
-                    border: none;
-                    margin-left: 10px;
-                }
 </style>
