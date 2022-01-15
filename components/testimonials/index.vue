@@ -78,6 +78,44 @@ export default {
                     slidesToShow: 3,
                     autoplay: true,
                     autoplaySpeed: 2000,
+                    responsive: [
+                    {
+                        breakpoint: 1900,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                    }
+                    },
+                    {
+                        breakpoint: 1600,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll:1,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                    }
+                    },
+                     {
+                        breakpoint: 900,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll:1,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                    }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                    }
+                    }
+                    ]
                 }
         }
     }
@@ -89,11 +127,11 @@ export default {
     margin-bottom: 50px;
 
     .main-testimonials__box {
-    border: 2px solid #146400;
-    padding: 20px;
-    max-width: 510px;
-    margin-bottom: 40px;
-}
+        border: 2px solid #146400;
+        padding: 20px;
+        max-width: 340px;
+        margin-bottom: 40px;
+    }
 }
 
 

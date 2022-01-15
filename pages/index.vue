@@ -1,5 +1,6 @@
 <template>
    <div>
+     <localization />
      <testimonials />
      <authors />
    </div>
