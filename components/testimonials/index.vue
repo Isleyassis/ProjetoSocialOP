@@ -1,5 +1,5 @@
 <template>
-    <b-container class="main-testimonials">
+    <b-container fluid="lg" class="main-testimonials">
         <div class="main-testimonials__title">
             <h3>Depoimentos</h3>
         </div>
@@ -98,7 +98,7 @@ export default {
                     }
                     },
                      {
-                        breakpoint: 900,
+                        breakpoint: 992,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll:1,
@@ -107,7 +107,7 @@ export default {
                     }
                     },
                     {
-                        breakpoint: 480,
+                        breakpoint: 650,
                         settings: {
                             slidesToShow: 1,
                             slidesToScroll: 1,
@@ -133,7 +133,6 @@ export default {
         margin-bottom: 40px;
     }
 }
-
 
 
 .main-testimonials__wrapper-img {
@@ -191,6 +190,11 @@ export default {
     .container-md, .container-sm {
         max-width: 100%;
     }
+}
+
+.slick-slide .slick-current{
+    max-width: 340px !important;
+    margin-right: 20px;
 }
 
 </style>
