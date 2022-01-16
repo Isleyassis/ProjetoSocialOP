@@ -4,11 +4,14 @@
             <b-navbar class="main-header__nav">
                 <div class="main-header__nav-wrapper">
                     <a href="#">HOME</a>
-                    <b-dropdown class="main-header__nav-dropdown" variant="link" toggle-class="text-decoration-none" text="Cursos" >
-                        <b-dropdown-item>Desenvolvimento</b-dropdown-item>
-                        <b-dropdown-item>Enfermagem</b-dropdown-item>
-                        <b-dropdown-item>Administração</b-dropdown-item>
-                        <b-dropdown-item>Contabilidade</b-dropdown-item>
+                    <b-dropdown class="main-header__nav-dropdown" variant="link" no-caret>
+                        <template #button-content>
+                           <p class="main-header__cousers">CURSOS</p>  <span class="sr-only">Search</span>
+                        </template>
+                        <b-dropdown-item href="/">Desenvolvimento</b-dropdown-item>
+                        <b-dropdown-item href="/">Enfermagem</b-dropdown-item>
+                        <b-dropdown-item href="/">Administração</b-dropdown-item>
+                        <b-dropdown-item href="/">Contabilidade</b-dropdown-item>
                     </b-dropdown>
                 </div>
             </b-navbar>
@@ -40,13 +43,28 @@
                 display: flex;
                 align-items: center;
 
-                .main-header__nav-dropdown {
-                    color: white;
-                }
-
                 a {
                     color: white;
                     text-decoration: none;
+                }
+
+                .main-header__nav-dropdown {
+                    .main-header__cousers {
+                        display: inline-block;
+                        color: white;
+                        margin: 0;
+
+                        &::after {
+                            display: inline-block;
+                            margin-left: 0.255em;
+                            vertical-align: 0.255em;
+                            content: "";
+                            border-top: 0.3em solid;
+                            border-right: 0.3em solid transparent;
+                            border-bottom: 0;
+                            border-left: 0.3em solid transparent;
+                        }
+                    }
                 }
             }
         }
@@ -57,6 +75,18 @@
             h1 {
                 font-size: 120px;
                 font-weight: bolder;
+
+
+                @media(max-width: 992px) {
+                    & {
+                        font-size: 80px;
+                    }
+                }
+                 @media(max-width: 450px) {
+                    & {
+                        font-size: 40px;
+                    }
+                }
             }
         }
     }
