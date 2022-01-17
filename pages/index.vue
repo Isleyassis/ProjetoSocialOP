@@ -3,6 +3,7 @@
      <localization />
      <testimonials />
      <authors />
+     <footerComponent />
    </div>
 </template>
 
