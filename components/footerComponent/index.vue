@@ -5,6 +5,7 @@
         </div>
 
         <div class="main-footer__background">
+            <img src="background-hd.jpg" class="background-hd" alt="">
             <div class="main-footer__wrapper-img">
             <img src="Foto Rodapé.jpeg" alt="">
         </div>
@@ -23,6 +24,13 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 160px;
+
+        @media(max-width: 700px) {
+            & {
+                margin-bottom: 80px;
+                font-size: 24px;
+            }
+        }
     }
 
     .main-footer__wrapper-img {
@@ -32,15 +40,25 @@
         top: -65px;
         left: 25%;
 
-        @media(max-width: 600px) {
+         @media(max-width: 1200px) {
+            width: 700px;
+            height: 450px;
+            top: -65px;
+            left: 18%;
+        }
+
+        @media(max-width: 992px) {
             width: 90%;
-            height: 100px;
+            height: 300px;
             top: -65px;
             left: 5%;
         }
 
-        @media(max-width: 992px) {
-            height: 350px;
+        @media(max-width: 600px) {
+            width: 90%;
+            height: 200px;
+            top: -65px;
+            left: 5%;
         }
 
 
@@ -51,16 +69,23 @@
     }
 
     .main-footer__background {
-        background-color: darkgreen;
         height: 500px;
         position: relative;
+
+        @media (max-width: 992px) {
+            height: 350px;
+        }
 
         @media (max-width: 600px) {
             height: 200px;
         }
 
-        @media (max-width: 992px) {
-            height: 350px;
+        .background-hd {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
         }
     }
 

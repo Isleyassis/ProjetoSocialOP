@@ -231,7 +231,7 @@ export default {
     }
 
     .main-authors__writers {
-        background-color: rgba(89, 187, 89, 0.685);
+        background-color: #CBD898;
         position: relative;
         padding: 20px 0;
         margin-bottom: 60px;
@@ -263,7 +263,7 @@ export default {
 
 
      .main-authors__developers {
-        background-color: rgba(205, 238, 144, 0.644);
+        background-color: #EAF6B9;
         position: relative;
         padding: 20px 0;
         margin-bottom: 60px;
@@ -295,7 +295,7 @@ export default {
     
 
     .main-authors__researchers {
-        background-color: rgb(211, 209, 100);
+        background-color: #E0F688;
         position: relative;
         padding: 20px 0;
         margin-bottom: 60px;
