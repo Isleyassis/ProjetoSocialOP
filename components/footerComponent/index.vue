@@ -11,9 +11,11 @@
         </div>
         </div>
         <div class="main-footer__nameproject">
-            <p>
-                NOME DO PROJETO - 2021
-            </p>
+            <div class="main-footer__wrappertext">
+                <p>
+                    NOME DO PROJETO - 2021
+                </p>
+            </div>
         </div>
     </footer>
 </template>
@@ -35,19 +37,23 @@
 
     .main-footer__wrapper-img {
         position: absolute;
-        width: 750px;
-        height: 400px;
-        top: -65px;
-        left: 25%;
+        
 
-         @media(max-width: 1200px) {
-            width: 700px;
+        @media(min-width: 1551px) {
+            width: 850px;
+            height: 450px;
+            top: -65px;
+            left: 28%;
+        }
+
+        @media(max-width: 1550px) {
+            width: 850px;
             height: 450px;
             top: -65px;
             left: 18%;
         }
 
-        @media(max-width: 992px) {
+        @media(max-width: 1050px) {
             width: 90%;
             height: 300px;
             top: -65px;
@@ -72,7 +78,7 @@
         height: 500px;
         position: relative;
 
-        @media (max-width: 992px) {
+        @media (max-width: 1050px) {
             height: 350px;
         }
 
@@ -91,14 +97,19 @@
 
     .main-footer__nameproject {
         background-color: lightgreen;
-        display: flex;
-        justify-content: flex-end;
-        padding: 10px 10%;
 
-        p {
-            margin: 0;
-            font-weight: bolder;
-            color: white;
+        .main-footer__wrappertext {
+            max-width: 960px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin: 0 auto;
+
+            p {
+                margin: 0;
+                font-weight: bolder;
+                color: white;
+            }
         }
     }
 </style>
