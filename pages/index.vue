@@ -1,8 +1,9 @@
 <template>
    <div>
-     <Header />
-     <!-- <testimonials /> -->
+     <localization />
+     <testimonials />
      <authors />
+     <footerComponent />
    </div>
 </template>
 

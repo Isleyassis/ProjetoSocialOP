@@ -8,21 +8,21 @@
                 <b-container>
                     <h5 class="writers">ESCRITORES</h5>
                     <b-row>
-                        <b-col col-lg="4">
+                        <b-col cols-lg='4'>
                             <ul>
                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
-                        <b-col col-lg="4"> 
+                        <b-col cols-lg='4'> 
                             <ul>
                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>  
                         </b-col>
-                        <b-col col-lg="4"> 
+                        <b-col cols-lg='4'> 
                             <div class="main-authors__wrapper-img">
                                 <img src="/Vetor Escritores.png" alt="imagem">
                             </div>
@@ -35,19 +35,19 @@
                 <b-container>
                     <h5 class="developers">DESENVOLVEDORES</h5>
                     <b-row>
-                        <b-col col-lg="4"> 
+                        <b-col cols-lg='4'> 
                             <div class="main-developers__wrapper-img">
                                 <img src="/Vetor Desenvolvedores.png" alt="imagem">
                             </div>
                         </b-col>
-                        <b-col col-lg="4">
+                        <b-col cols-lg='4'>
                             <ul>
                                  <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
-                        <b-col col-lg="4"> 
+                        <b-col cols-lg='4'> 
                             <ul>
                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
@@ -62,21 +62,21 @@
                 <b-container>
                     <h5 class="researchers">PESQUISADORES</h5>
                     <b-row>
-                        <b-col col-lg="4">
+                        <b-col cols-lg='4'>
                             <ul>
                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
-                        <b-col col-lg="4"> 
+                        <b-col cols-lg='4'> 
                             <ul>
                                  <li v-for="(part, index) in participantsSeparated" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>  
                         </b-col>
-                        <b-col col-lg="4"> 
+                        <b-col cols-lg='4'> 
                             <div class="main-researchers__wrapper-img">
                                 <img src="/Vetor Prsquisadores.png" alt="imagem">
                             </div>
@@ -93,14 +93,14 @@
                 <b-container>
                     <h5 class="writers-mobile">ESCRITORES</h5>
                     <b-row>
-                        <b-col col="6">
+                        <b-col cols='6'>
                             <ul>
                                 <li v-for="(part, index) in participantsTogether" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
-                        <b-col col="6"> 
+                        <b-col cols='6'> 
                             <div class="main-writers__wrapper-mobile-img">
                                 <img src="/Vetor Escritores.png" alt="imagem">
                             </div>
@@ -113,12 +113,12 @@
                 <b-container>
                     <h5 class="developers-mobile">DESENVOLVEDORES</h5>
                     <b-row>
-                        <b-col col="6"> 
+                        <b-col cols='6'> 
                             <div class="main-developers__wrapper-mobile-img">
                                 <img src="/Vetor Desenvolvedores.png" alt="imagem">
                             </div>
                         </b-col>
-                        <b-col col="6">
+                        <b-col cols='6'>
                             <ul>
                                 <li v-for="(part, index) in participantsTogether" :key="index"> 
                                     {{ part.students }} 
@@ -133,14 +133,14 @@
                 <b-container>
                     <h5 class="researchers-mobile">ESCRITORES</h5>
                     <b-row>
-                        <b-col col="6">
+                        <b-col cols="6">
                             <ul>
                                 <li v-for="(part, index) in participantsTogether" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
                         </b-col>
-                        <b-col col="6"> 
+                        <b-col cols="6"> 
                             <div class="main-researchers__wrapper-mobile-img">
                                 <img src="/Vetor Prsquisadores.png" alt="imagem">
                             </div>
@@ -231,7 +231,7 @@ export default {
     }
 
     .main-authors__writers {
-        background-color: rgba(89, 187, 89, 0.685);
+        background-color: #CBD898;
         position: relative;
         padding: 20px 0;
         margin-bottom: 60px;
@@ -263,7 +263,7 @@ export default {
 
 
      .main-authors__developers {
-        background-color: rgba(205, 238, 144, 0.644);
+        background-color: #EAF6B9;
         position: relative;
         padding: 20px 0;
         margin-bottom: 60px;
@@ -295,7 +295,7 @@ export default {
     
 
     .main-authors__researchers {
-        background-color: rgb(211, 209, 100);
+        background-color: #E0F688;
         position: relative;
         padding: 20px 0;
         margin-bottom: 60px;
