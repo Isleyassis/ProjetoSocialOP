@@ -1,5 +1,6 @@
 <template>
    <div>
+     <Header />
      <!-- <testimonials /> -->
      <authors />
    </div>
