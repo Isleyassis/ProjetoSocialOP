@@ -3,7 +3,7 @@
         <header class="container">
             <p>HOME</p>
             <select>
-                <option value="">CURSOS</option>
+                <option value="#">CURSOS</option>
                 <option value="administracao">Administração</option>
                 <option value="enfermagem">Enfermagem</option>
                 <option value="Financas">Finanças</option>
@@ -26,6 +26,7 @@
         background-image: url(../../static/Banner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position-y: -25rem;
 
         padding-bottom: 10rem;
     }

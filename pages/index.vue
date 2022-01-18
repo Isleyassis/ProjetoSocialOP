@@ -1,5 +1,6 @@
 <template>
    <div>
+     <Header />
      <localization />
      <testimonials />
      <authors />
