@@ -99,7 +99,7 @@
         background-color: lightgreen;
 
         .main-footer__wrappertext {
-            max-width: 960px;
+            max-width: 1140px;
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;

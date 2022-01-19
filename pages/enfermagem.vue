@@ -1,9 +1,6 @@
 <template>
-   <div>
-       <enfermagem-card />
-   </div>
+    <div>
+        <h1>enfermagem aqui</h1>
+    </div>
 </template>
-<script>
-export default {}
-</script>
 

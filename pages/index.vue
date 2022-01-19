@@ -2,6 +2,7 @@
    <div>
      <Header />
      <localization />
+     <courses />
      <testimonials />
      <objective />
      <authors />
@@ -10,5 +11,6 @@
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
