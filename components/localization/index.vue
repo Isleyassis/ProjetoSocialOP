@@ -3,7 +3,7 @@
 <div class="main_container____text">
     <h3>SOBRE A ESCOLA</h3>
 </div>
-
+<!-- . -->
     <b-row class="main_container____row">
         <b-col lg="4" class="local">
             <div class="local_container">
