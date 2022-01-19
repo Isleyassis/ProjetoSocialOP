@@ -26,9 +26,15 @@
         flex-direction: column;
         margin-bottom: 180px;
 
-        @media(max-width: 1180px) {
+        @media(max-width: 1200px) {
             & {
                 margin-bottom: 320px;
+            }
+        }
+
+        @media(max-width: 550px) {
+            & {
+                margin-bottom: 250px;
             }
         }
     }
@@ -111,10 +117,10 @@
             }
             @media(max-width: 600px) {
                 & {
-                    width: 300px;
-                    height: 300px;
+                    height: 250px;
                     left: 7%;
-                    top: -250px;
+                    top: -200px;
+                    width: 88%;
                 }
             }
         }
