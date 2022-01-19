@@ -8,10 +8,10 @@
                         <template #button-content>
                            <p class="main-header__cousers text">CURSOS</p>  <span class="sr-only">Search</span>
                         </template>
-                        <b-dropdown-item class="text" href="/">Desenvolvimento</b-dropdown-item>
-                        <b-dropdown-item class="text" href="/">Enfermagem</b-dropdown-item>
-                        <b-dropdown-item class="text" href="/">Administração</b-dropdown-item>
-                        <b-dropdown-item class="text" href="/">Contabilidade</b-dropdown-item>
+                        <b-dropdown-item class="text" to="desenvolvimento">Desenvolvimento</b-dropdown-item>
+                        <b-dropdown-item class="text" to="enfermagem">Enfermagem</b-dropdown-item>
+                        <b-dropdown-item class="text" to="administração">Administração</b-dropdown-item>
+                        <b-dropdown-item class="text" to="finanças">finanças</b-dropdown-item>
                     </b-dropdown>
                 </div>
             </b-navbar>
