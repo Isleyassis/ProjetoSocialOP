@@ -3,6 +3,7 @@
      <Header />
      <localization />
      <testimonials />
+     <objective />
      <authors />
      <footerComponent />
    </div>
