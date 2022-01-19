@@ -2,6 +2,7 @@
    <div>
      <Header />
      <localization />
+     <courses />
      <testimonials />
      <objective />
      <authors />
