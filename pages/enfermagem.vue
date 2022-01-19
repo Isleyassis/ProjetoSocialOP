@@ -1,7 +1,8 @@
 <template>
     <div>
-       
-       <enfermagem-card />
+        <enfermagem-frase/>
+        <enfermagem-importancia/>
+        <enfermagem-card />
     </div>
 </template>
 
