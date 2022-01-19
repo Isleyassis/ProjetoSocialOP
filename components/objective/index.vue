@@ -24,7 +24,13 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 150px;
+        margin-bottom: 180px;
+
+        @media(max-width: 1180px) {
+            & {
+                margin-bottom: 320px;
+            }
+        }
     }
 
     .main-objective__title h3{
@@ -36,6 +42,7 @@
         @media(max-width: 992px) {
             & {
                 font-size: 24px;
+                line-height: 1;
             }
         }
     }
@@ -43,18 +50,18 @@
     .main-objective__title h3::after {
         position: absolute;
         content: '';
-        bottom: -10%;
+        bottom: -20%;
         left: 32%;
-        width: 300px;
+        width: 200px;
         height: 4px;
         background-color: #22A800;
 
-    @media (max-width: 992px) {
-         & {
-            bottom: 5%;
-            left: 32%;
+        @media (max-width: 500px) {
+            & {
+                bottom: -17%;
+                left: 22%;
+            }
         }
-    }
     }
 
     .main-objective__text {
@@ -64,14 +71,51 @@
 
         .main-objective__wrapper-img {
             position: absolute;
-            left: 8%;
-            top: -15%;
             width: 500px;
             height: 300px;
 
             img {
                 width: 100%;
                 height: 100%;
+            }
+            
+            @media(min-width: 1651px) {
+                & {
+                    left: 17%;
+                    top: -120px;
+                }
+            }
+            @media(max-width: 1650px) {
+                & {
+                    left: 10%;
+                    top: -100px;
+                }
+            }
+            @media(max-width: 1550px) {
+                & {
+                    left: 6%;
+                    top: -120px;
+                }
+            }
+            @media(max-width: 1180px) {
+                & {
+                    left: 23%;
+                    top: -280px;
+                }
+            }
+            @media(max-width: 780px) {
+                & {
+                    left: 15%;
+                    top: -280px;
+                }
+            }
+            @media(max-width: 600px) {
+                & {
+                    width: 300px;
+                    height: 300px;
+                    left: 7%;
+                    top: -250px;
+                }
             }
         }
 
@@ -81,12 +125,28 @@
             padding: 20px 100px;
 
             h4 {
-                color: lightgreen;
+                color: #22A800;
             }
 
             p {
                 text-align: justify;
             }
+
+            @media(max-width: 1180px) {
+                & {
+                    width: 100%;
+                    padding: 40px 100px;
+                }
+            }
+
+            @media (max-width: 600px) {
+                & {
+                    padding: 70px 20px 10px 20px;
+                }
+            }
         }
     }
+
+
+    // 1280px 1550px
 </style>
