@@ -1,74 +1,120 @@
 <template>
-    <div class="bga">
-        <header class="container">
-            <p>HOME</p>
-            <select>
-                <option value="#">CURSOS</option>
-                <option value="administracao">Administração</option>
-                <option value="enfermagem">Enfermagem</option>
-                <option value="Financas">Finanças</option>
-                <option value="DS">Desenvol. Sistemas</option>
-            </select>
-        </header>
+    <header class="main-header">
+        <b-container>
+            <b-navbar class="main-header__nav">
+                <div class="main-header__nav-wrapper">
+                    <a href="#">HOME</a>
+                    <b-dropdown class="main-header__nav-dropdown" variant="link" no-caret>
+                        <template #button-content>
+                           <p class="main-header__cousers text">CURSOS</p>  <span class="sr-only">Search</span>
+                        </template>
+                        <b-dropdown-item class="text" href="/">Desenvolvimento</b-dropdown-item>
+                        <b-dropdown-item class="text" href="/">Enfermagem</b-dropdown-item>
+                        <b-dropdown-item class="text" href="/">Administração</b-dropdown-item>
+                        <b-dropdown-item class="text" href="/">Contabilidade</b-dropdown-item>
+                    </b-dropdown>
+                </div>
+            </b-navbar>
 
-        <div class="container hero">
-            <h3>Projeto Social</h3>
-            <h1>TITULO DO PROJETO</h1>
-            <h3>EEEP PROFESSOR ONÉLIO PORTO - INFORMÁTICA 3 2021</h3>
-        </div>
-    </div>
+            <div class="central">
+                <div class="main-header__text"> 
+                    <h3>PROJETO SOCIAL</h3>
+                    <h1>TITULO DO <br> PROJETO</h1>
+                    <p>EEEP PROFESSOR ONÉLIO PORTO - INFORMÁTICA 3 2021</p>
+                </div>    
+            </div>
+            
+        </b-container>
+    </header>    
 </template>
 
-<style scoped>
-    .bga {
-        background: #c4c4c4;
-        color: #fff;
-        background-image: url(../../static/Banner.jpg);
+<style lang="scss" scoped>
+    .main-header {
+        background-image: url("/Banner.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: -25rem;
+        height: 80%;
+        width: 100%;
+        padding-bottom: 7rem;
+        margin-bottom: 7rem;
 
-        padding-bottom: 10rem;
-    }
+        .container {
+            height: 100%;
+        }
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        padding: 2.6rem 0;
-    }
+        a, .text {
+            font-size: 25px;
+        }
 
-    select {
-        margin-left: 1rem;
-        font-size: 25px;
-        background: transparent;
-        border: 0;
-        width: 130px;
-        color: #fff
-    }
+        &__nav {
+            display: flex;
+            justify-content: flex-end;
+            
+            padding: 2rem 0;
 
-    p {
-        margin: 0;
-        font-size: 25px;
-    }
+            .main-header__nav-wrapper {
+                display: flex;
+                align-items: center;
 
-    .hero {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
 
-        margin-top: 2rem;
-    }
+                .main-header__nav-dropdown {
+                    .main-header__cousers {
+                        display: inline-block;
+                        color: white;
+                        margin: 0;
 
-    h3 {
-        font-size: 25px;
-        line-height: 45px;
-    }
-    
-    h1 {
-        font-size: 110px;
-        line-height: 125px;
-        width: 70%;
+                        &::after {
+                            display: inline-block;
+                            margin-left: 0.255em;
+                            vertical-align: 0.255em;
+                            content: "";
+                            border-top: 0.3em solid;
+                            border-right: 0.3em solid transparent;
+                            border-bottom: 0;
+                            border-left: 0.3em solid transparent;
+                        }
+                    }
+                }
+            }
+        }
+
+        .central {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+        &__text {
+            color: white;
+
+            
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            h1 {
+                font-size: 120px;
+                font-weight: bolder;
+
+
+                @media(max-width: 992px) {
+                    & {
+                        font-size: 80px;
+                    }
+                }
+                 @media(max-width: 450px) {
+                    & {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
     }
 </style>
