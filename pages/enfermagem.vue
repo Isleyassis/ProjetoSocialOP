@@ -1,5 +1,7 @@
 <template>
     <div>
-        <h1>enfermagem aqui</h1>
+        <firstyear />
+        <secondyear />
+        <thirdyear />
     </div>
 </template>
