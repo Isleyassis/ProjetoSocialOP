@@ -1,7 +1,7 @@
 <template>
 <b-container class="main_container">
-    <h2>"A enfermagem não mede esforços para salvar e acolher uma vida!"</h2>
-    <p>Marianna Moreno</p>
+    <h2>"A questão não é saber os códigos ou linhas de comando, é saber o que fazer com eles."</h2>
+    <p>Sérgio Arena</p>
 </b-container>
 </template>
 <style scoped lang="scss">
