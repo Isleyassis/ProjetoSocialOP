@@ -1,5 +1,7 @@
 <template>
     <div>
-        <h1>desenvolvimento aqui</h1>
+        <informatica-frase/>
+        <informatica-importancia/>
+        <informatica-card/>
     </div>
 </template>
