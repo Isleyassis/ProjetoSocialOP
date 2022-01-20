@@ -54,10 +54,14 @@
         margin-bottom: 40px;
 
         &__wrapper {
-            padding: 20px 150px;
+            padding: 20px 50px;
         }
 
         &__title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             h1 {
                 font-weight: bolder;
             }

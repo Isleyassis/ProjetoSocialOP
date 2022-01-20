@@ -62,6 +62,7 @@
         }
 
         &__title {
+            padding: 0 200px;
             h1 {
                 font-weight: bolder;
             }

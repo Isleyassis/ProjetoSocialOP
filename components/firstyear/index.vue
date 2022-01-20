@@ -40,7 +40,7 @@
                 </b-col>
             </b-row>
             <div class="main-first__wrapper-img">
-                <img src="Icone 1 Ano.png" alt="">
+                <img src="Icone1.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -87,8 +87,6 @@
             position: absolute;
             right: 0;
             bottom: 0;
-            width: 70%;
-            display: none;
 
             img {
                 width: 100%;
