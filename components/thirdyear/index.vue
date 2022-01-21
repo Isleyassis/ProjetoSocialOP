@@ -16,9 +16,6 @@
                             <li>Informática Basica</li>
                             <li>Informática Basica</li>
                             <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
                         </ul>
                     </div>
                 </b-col>
@@ -32,15 +29,15 @@
                             <li>100 HORAS</li>
                             <li>100 HORAS</li>
                             <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
                         </ul>
                     </div>
                 </b-col>
             </b-row>
-            <div class="main-third__wrapper-img">
-                <img src="Icone 1 Ano.png" alt="">
+            <div class="main-third__wrapper-img1">
+                <img src="icone3 1.png" alt="">
+            </div>
+            <div class="main-third__wrapper-img2">
+                <img src="icone3 2.png" alt="">
             </div>
         </b-container>
     </div>
@@ -59,6 +56,10 @@
 
         &__wrapper {
             padding: 20px 50px;
+
+            @media(max-width: 930px) {
+                padding: 10px;
+            }
         }
 
         &__title {
@@ -68,18 +69,32 @@
 
             h1 {
                 font-weight: bolder;
+
+                 @media(max-width: 930px) {
+                      font-size: 1.8rem;
+                }
             }
         }
 
         &__subjects, &__hours {
             h4 {
                 font-weight: bolder;
+
+                @media(max-width: 930px) {
+                    font-size: 1.2rem;
+                }
             }
         }
 
         &__subjects {
             ul {
                 padding-left: 5px;
+
+                 li {
+                    @media(max-width: 930px) {
+                      font-size: 0.8rem;
+                    }
+                }
             }
         }
 
@@ -87,19 +102,43 @@
             ul {
                 list-style: none;
                 padding-left: 10px;
+
+                 li {
+                    @media(max-width: 930px) {
+                      font-size: 0.8rem;
+                    }
+                }
             }
         }
 
-        &__wrapper-img {
+        &__wrapper-img1 {
             position: absolute;
-            right: 0;
+            left: 0;
             bottom: 0;
-            width: 70%;
-            display: none;
+            top: 10px;
 
             img {
                 width: 100%;
                 height: 100%;
+            }
+
+            @media(max-width: 930px) {
+                display: none;
+            }
+        }
+         &__wrapper-img2 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            top: 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            @media(max-width: 930px) {
+                display: none;
             }
         }
     }
