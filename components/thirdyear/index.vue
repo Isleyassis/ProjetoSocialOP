@@ -47,6 +47,10 @@
 </template>
 
 <style lang="scss" scoped>
+    .col {
+        display: flex;
+        justify-content: center;
+    }
     .main-third {
         background-color: lightgray;
         position: relative;

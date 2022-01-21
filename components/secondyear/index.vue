@@ -47,6 +47,11 @@
 </template>
 
 <style lang="scss" scoped>
+    .col {
+        display: flex;
+        justify-content: center;
+
+    }
     .main-second {   
         margin-bottom: 40px;
         display: flex;

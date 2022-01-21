@@ -13,7 +13,7 @@
         <div class="main-footer__nameproject">
             <div class="main-footer__wrappertext">
                 <p>
-                    NOME DO PROJETO - 2021
+                    INFORONELIO - 2021
                 </p>
             </div>
         </div>
