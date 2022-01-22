@@ -1,44 +1,46 @@
 <template>
     <div class="main-first">
         <div class="main-first__wrapper">
-            <div class="main-first__title">
-                <h1> 1º Ano </h1>
-            </div>
+            <b-container>
+                <div class="main-first__title">
+                    <h1> 1º Ano </h1>
+                </div>
 
-            <b-row>
-                <b-col>
-                    <div class="main-first__subjects">
-                        <h4>Disciplinas:</h4>
-                        <ul>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                        </ul>
-                    </div>
-                </b-col>
-                <b-col>
-                    <div class="main-first__hours">
-                        <h4>Horas:</h4>
-                        <ul>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                        </ul>
-                    </div>
-                </b-col>
-            </b-row>
+                <b-row>
+                    <b-col>
+                        <div class="main-first__subjects">
+                            <h4>Disciplinas:</h4>
+                            <ul>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                                <li>Informática Basica</li>
+                            </ul>
+                        </div>
+                    </b-col>
+                    <b-col>
+                        <div class="main-first__hours">
+                            <h4>Horas:</h4>
+                            <ul>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                                <li>100 HORAS</li>
+                            </ul>
+                        </div>
+                    </b-col>
+                </b-row>
+            </b-container>
             <div class="main-first__wrapper-img">
                 <img src="Icone1.png" alt="">
             </div>
@@ -134,6 +136,11 @@
                 height: 100%;
             }
 
+            @media(min-width: 1600px) {
+                right: 10%;
+                bottom: 0;
+                top: -15px;
+            }
             @media(max-width: 930px) {
                 display: none;
             }

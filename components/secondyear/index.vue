@@ -1,10 +1,11 @@
 <template>
     <div class="main-second">
         <div class="main-second__wrapper">
+            <b-container>
             <div class="main-second__title">
                 <h1> 2º Ano </h1>
             </div>
-            <b-container>
+            
             <b-row>
                 <b-col>
                     <div class="main-second__subjects">
@@ -133,7 +134,7 @@
             position: absolute;
             left: 0;
             bottom: 0;
-            top: 0;
+            top: 15px;
             width: 200px;
 
             img {
@@ -141,6 +142,11 @@
                 height: 100%;
             }
 
+            @media(min-width: 1600px) {
+                left: 10%;
+                bottom: 0;
+                top: 15px;
+            }
             @media(max-width: 930px) {
                 display: none;
             }

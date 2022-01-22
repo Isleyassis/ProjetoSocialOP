@@ -33,6 +33,7 @@
         background-image: url("/Banner.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center center;
         height: 80%;
         width: 100%;
         padding-bottom: 7rem;

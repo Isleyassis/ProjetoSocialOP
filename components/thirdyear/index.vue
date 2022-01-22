@@ -122,6 +122,11 @@
                 height: 100%;
             }
 
+            @media(min-width: 1600px) {
+                left: 10%;
+                bottom: 0;
+                top: 10px;
+            }
             @media(max-width: 930px) {
                 display: none;
             }
@@ -137,6 +142,11 @@
                 height: 100%;
             }
             
+            @media(min-width: 1600px) {
+                right: 10%;
+                bottom: 0;
+                top: 10px;
+            }
             @media(max-width: 930px) {
                 display: none;
             }
