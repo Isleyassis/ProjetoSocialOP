@@ -1,5 +1,7 @@
 <template>
     <div>
-        <h1>Administração aqui</h1>
+        <administracao-firstyear />
+        <administracao-secondyear />
+        <administracao-thirdyear />
     </div>
 </template>

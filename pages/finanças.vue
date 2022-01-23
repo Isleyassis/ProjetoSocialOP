@@ -1,5 +1,7 @@
 <template>
     <div>
-        <h1>finanças aqui</h1>
+        <financas-firstyear />
+        <financas-secondyear />
+        <financas-thirdyear />
     </div>
 </template>

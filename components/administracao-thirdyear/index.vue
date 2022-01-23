@@ -34,7 +34,7 @@
                 </b-col>
             </b-row>
             <div class="main-third__wrapper-img">
-                <img src="icone3 - desenvolvimento.png" alt="">
+                <img src="icone3 - administração.png" alt="">
             </div>
         </b-container>
     </div>

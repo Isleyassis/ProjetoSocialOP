@@ -1,15 +1,23 @@
 <template>
-    <div class="main-third">
-        <b-container class="main-third__wrapper">
-            <div class="main-third__title">
-                <h1> 3º Ano </h1>
+    <div class="main-second">
+        <div class="main-second__wrapper">
+            <b-container>
+            <div class="main-second__title">
+                <h1> 2º Ano </h1>
             </div>
-
+            
             <b-row>
                 <b-col>
-                    <div class="main-third__subjects">
+                    <div class="main-second__subjects">
                         <h4>Disciplinas:</h4>
                         <ul>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
                             <li>Informática Basica</li>
                             <li>Informática Basica</li>
                             <li>Informática Basica</li>
@@ -20,9 +28,16 @@
                     </div>
                 </b-col>
                 <b-col>
-                    <div class="main-third__hours">
+                    <div class="main-second__hours">
                         <h4>Horas:</h4>
                         <ul>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
                             <li>100 HORAS</li>
                             <li>100 HORAS</li>
                             <li>100 HORAS</li>
@@ -33,37 +48,44 @@
                     </div>
                 </b-col>
             </b-row>
-            <div class="main-third__wrapper-img">
-                <img src="icone3 - desenvolvimento.png" alt="">
+            </b-container>
+            <div class="main-second__wrapper-img">
+                <img src="icone2 - administração.png" alt="">
             </div>
-        </b-container>
+        </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
     .col {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
+
+         @media(max-width: 930px) {
+             justify-content: center;
+        }
     }
-    .main-third {
-        background-color: lightgray;
-        position: relative;
-        overflow: hidden;
+    .main-second {   
         margin-bottom: 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
 
         &__wrapper {
-            padding: 20px 50px;
+            padding: 20px 50px; 
+            width: 90%;
+            background-color: lightgray;
+            position: relative;
 
             @media(max-width: 930px) {
                 padding: 10px;
+                width: 100%;
             }
         }
 
         &__title {
             display: flex;
             justify-content: center;
-            align-items: center;
-
             h1 {
                 font-weight: bolder;
 
@@ -108,22 +130,23 @@
             }
         }
 
-         &__wrapper-img {
+        &__wrapper-img {
             position: absolute;
-            right: 0;
+            left: 0;
             bottom: 0;
-            top: 10px;
-            width: 15%;
+            top: 50px;
+            max-width: 200px;
+            max-height: 300px;
 
             img {
                 width: 100%;
                 height: 100%;
             }
-            
+
             @media(min-width: 1600px) {
-                right: 10%;
+                left: 10%;
                 bottom: 0;
-                top: 10px;
+                top: 50px;
             }
             @media(max-width: 930px) {
                 display: none;
