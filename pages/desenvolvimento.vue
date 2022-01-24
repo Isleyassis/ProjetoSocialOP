@@ -1,5 +1,6 @@
 <template>
     <div>
+        <desenvolvimento-header />
         <informatica-frase/>
         <informatica-importancia/>
         <informatica-card/>
