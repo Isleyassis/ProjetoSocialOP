@@ -7,6 +7,8 @@
         <enfermagem-firstyear />
         <enfermagem-secondyear />
         <enfermagem-thirdyear />
+        <depoiProf-enf />
+        <Footer />
     </div>
 </template>
 

@@ -7,5 +7,7 @@
         <desenvolvimento-firstyear />
         <desenvolvimento-secondyear />
         <desenvolvimento-thirdyear />
+        <depoiProf-ds />
+        <Footer />
     </div>
 </template>
