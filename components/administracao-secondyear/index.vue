@@ -1,15 +1,20 @@
 <template>
     <div class="main-second">
         <div class="main-second__wrapper">
+            <b-container>
             <div class="main-second__title">
                 <h1> 2º Ano </h1>
             </div>
-
+            
             <b-row>
                 <b-col>
                     <div class="main-second__subjects">
                         <h4>Disciplinas:</h4>
                         <ul>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
+                            <li>Informática Basica</li>
                             <li>Informática Basica</li>
                             <li>Informática Basica</li>
                             <li>Informática Basica</li>
@@ -35,18 +40,31 @@
                             <li>100 HORAS</li>
                             <li>100 HORAS</li>
                             <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
+                            <li>100 HORAS</li>
                         </ul>
                     </div>
                 </b-col>
             </b-row>
+            </b-container>
             <div class="main-second__wrapper-img">
-                <img src="Icone 1 Ano.png" alt="">
+                <img src="icone2 - administração.png" alt="">
             </div>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+    .col {
+        display: flex;
+        justify-content: flex-end;
+
+         @media(max-width: 930px) {
+             justify-content: center;
+        }
+    }
     .main-second {   
         margin-bottom: 40px;
         display: flex;
@@ -58,25 +76,44 @@
             width: 90%;
             background-color: lightgray;
             position: relative;
-            overflow: hidden;
+
+            @media(max-width: 930px) {
+                padding: 10px;
+                width: 100%;
+            }
         }
 
         &__title {
-            padding: 0 200px;
+            display: flex;
+            justify-content: center;
             h1 {
                 font-weight: bolder;
+
+                 @media(max-width: 930px) {
+                      font-size: 1.8rem;
+                }
             }
         }
 
         &__subjects, &__hours {
             h4 {
                 font-weight: bolder;
+
+                @media(max-width: 930px) {
+                    font-size: 1.2rem;
+                }
             }
         }
 
         &__subjects {
             ul {
                 padding-left: 5px;
+
+                 li {
+                    @media(max-width: 930px) {
+                      font-size: 0.8rem;
+                    }
+                }
             }
         }
 
@@ -84,19 +121,35 @@
             ul {
                 list-style: none;
                 padding-left: 10px;
+
+                 li {
+                    @media(max-width: 930px) {
+                      font-size: 0.8rem;
+                    }
+                }
             }
         }
 
         &__wrapper-img {
             position: absolute;
-            right: 0;
+            left: 0;
             bottom: 0;
-            width: 70%;
-            display: none;
+            top: 50px;
+            max-width: 200px;
+            max-height: 300px;
 
             img {
                 width: 100%;
                 height: 100%;
+            }
+
+            @media(min-width: 1600px) {
+                left: 10%;
+                bottom: 0;
+                top: 50px;
+            }
+            @media(max-width: 930px) {
+                display: none;
             }
         }
     }
