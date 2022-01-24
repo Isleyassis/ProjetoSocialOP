@@ -1,5 +1,6 @@
 <template>
     <div>
+        <enfermagem-header />
         <enfermagem-frase/>
         <enfermagem-importancia/>
         <enfermagem-card />
