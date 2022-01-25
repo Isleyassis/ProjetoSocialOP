@@ -1,38 +1,45 @@
 <template>
-    <div class="container cards-container">
-        <div class="box-card">
-            <div class="card">
-                <img src="/administracao.jpg" alt="">
+    <div class="container">
+        <div class="title-courses">
+            <h3>SAIBA MAIS SOBRE OS CURSOS</h3>
+            <div class="line"></div>
+        </div>
+        <div class="cards-container">
+            <div class="box-card">
+                <div class="card">
+                    <img src="/administracao.jpg" alt="">
+                </div>
+                <div class="course-name">
+                    <p>Administração</p>
+                </div>
             </div>
-            <div class="course-name">
-                <p>Administração</p>
+            <div class="box-card">
+                <div class="card">
+                    <img src="/enfermagem.jpg" alt="">
+                </div>
+                <div class="course-name">
+                    <p>Enfermagem</p>
+                </div>
+            </div>
+            <div class="box-card">
+                <div class="card">
+                    <img src="/financas.jpg" alt="">
+                </div>
+                <div class="course-name">
+                    <p>Finanças</p>
+                </div>
+            </div>
+            <div class="box-card">
+                <div class="card">
+                    <img src="/desenSistema.jpg" alt="">
+                </div>
+                <div class="course-name">
+                    <p>Desenvol. de Sistemas</p>
+                </div>
             </div>
         </div>
-        <div class="box-card">
-            <div class="card">
-                <img src="/enfermagem.jpg" alt="">
-            </div>
-            <div class="course-name">
-                <p>Enfermagem</p>
-            </div>
         </div>
-        <div class="box-card">
-            <div class="card">
-                <img src="/financas.jpg" alt="">
-            </div>
-            <div class="course-name">
-                <p>Finanças</p>
-            </div>
-        </div>
-        <div class="box-card">
-            <div class="card">
-                <img src="/desenSistema.jpg" alt="">
-            </div>
-            <div class="course-name">
-                <p>Desenvol. de Sistemas</p>
-            </div>
-        </div>
-    </div>
+        
 </template>
 
 <style scoped lang="scss">
@@ -80,5 +87,22 @@
         }
 
         
+    }
+
+    .title-courses {
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 2rem;
+
+        .line {
+            width: 150px;
+            height: 5px;
+            background: #146400;
+        }
     }
 </style>
