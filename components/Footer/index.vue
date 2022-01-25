@@ -1,11 +1,11 @@
 <template>
     <div class="footer">
         <div class="container">
-            <nuxt-link to="/pages/index.vue">HOME</nuxt-link>
-            <nuxt-link to="/pages/administração.vue">ADMINISTRAÇÃO</nuxt-link>
-            <nuxt-link to="/pages/enfermagem.vue">ENFERMAGEM</nuxt-link>
-            <nuxt-link to="/pages/finanças.vue">FINANÇAS</nuxt-link>
-            <nuxt-link to="/pages/desenvolvimento.vue">DESENVOLVIMENTO DE SISTEMAS</nuxt-link>
+            <nuxt-link to="/">HOME</nuxt-link>
+            <nuxt-link to="administração">ADMINISTRAÇÃO</nuxt-link>
+            <nuxt-link to="enfermagem">ENFERMAGEM</nuxt-link>
+            <nuxt-link to="finanças">FINANÇAS</nuxt-link>
+            <nuxt-link to="desenvolvimento">DESENVOLVIMENTO DE SISTEMAS</nuxt-link>
         </div>
         <div class="main-footer__nameproject">
             <div class="main-footer__wrappertext">

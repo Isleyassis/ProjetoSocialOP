@@ -5,38 +5,38 @@
             <div class="line"></div>
         </div>
         <div class="cards-container">
-            <div class="box-card">
+            <nuxt-link to="administração" class="box-card">
                 <div class="card">
                     <img src="/administracao.jpg" alt="">
                 </div>
                 <div class="course-name">
-                    <p>Administração</p>
+                    Administração
                 </div>
-            </div>
-            <div class="box-card">
+            </nuxt-link>
+            <nuxt-link to="enfermagem" class="box-card">
                 <div class="card">
                     <img src="/enfermagem.jpg" alt="">
                 </div>
                 <div class="course-name">
                     <p>Enfermagem</p>
                 </div>
-            </div>
-            <div class="box-card">
+            </nuxt-link>
+            <nuxt-link to="finanças" class="box-card">
                 <div class="card">
                     <img src="/financas.jpg" alt="">
                 </div>
                 <div class="course-name">
                     <p>Finanças</p>
                 </div>
-            </div>
-            <div class="box-card">
+            </nuxt-link>
+            <nuxt-link to="desenvolvimento" class="box-card">
                 <div class="card">
                     <img src="/desenSistema.jpg" alt="">
                 </div>
                 <div class="course-name">
                     <p>Desenvol. de Sistemas</p>
                 </div>
-            </div>
+            </nuxt-link>
         </div>
         </div>
         
@@ -84,8 +84,11 @@
         }
         .card {
             margin-bottom: 1.5rem;
+            transition: .2s;
+            &:hover {
+                -webkit-filter:grayscale(50%);
+            }
         }
-
         
     }
 
