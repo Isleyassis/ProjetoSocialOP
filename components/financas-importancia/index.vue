@@ -2,7 +2,7 @@
 <div class="main_container">
     <b-container >
         <b-row class="main_container___row">
-            <b-col lg="9">
+            <b-col lg="8">
                 <div class="main_container___text">
                 <h1>QUAL A IMPORTÂNCIA DO CURSO DE FINANÇAS?</h1>
                 <p>
@@ -29,7 +29,7 @@
                 </p>
                 </div>
             </b-col>
-            <b-col lg="3">
+            <b-col lg="4">
                 <figure class="main_container___img">
                     <img src="financas icone.png" alt="">
                 </figure>
@@ -69,8 +69,8 @@ background-color: rgb(198, 214, 51);
 }
 
 .main_container___img{
-    height: 545px;
-    width: 545px;
+    height: 500px;
+    width: 500px;
     position: relative;
     padding-right: 100px;
     

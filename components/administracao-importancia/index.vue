@@ -69,8 +69,8 @@ background-color: rgb(224, 147, 2);
 }
 
 .main_container___img{
-    height: 545px;
-    width: 545px;
+    height: 500px;
+    width: 500px;
     position: relative;
     padding-right: 100px;
     

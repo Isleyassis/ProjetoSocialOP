@@ -138,6 +138,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 
     img {
         width: 100%;
@@ -145,19 +146,23 @@
     }
 }
 
+.plano_container figure{
+    margin-top: 80px;
+}
+
 .plano_container__infos{ 
     position: absolute;
-    bottom: 15px;
+    bottom: 60px;
     text-align: center;
 }
 
 .financeira_container__infos {
     text-align: center;
-    margin-top: 230px;
+    margin-top: 210px;
 }
 
 .economia_container__infos {
-    margin-top: 250px;
+    margin-top: 180px;
     text-align: center;
 }
 
