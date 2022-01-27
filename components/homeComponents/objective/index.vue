@@ -9,7 +9,7 @@
             </div>
             <div class="main-objective__wrapper-text">           
                 <h4>NOSSO OBJETIVO</h4>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, ducimus ipsum. Voluptatem enim blanditiis, corporis quo architecto consequuntur culpa dolorem dolorum fugiat quidem possimus illum doloribus incidunt rem. Blanditiis, molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos qui fugiat provident aliquam natus ratione magnam, aut, repellat ipsam assumenda distinctio corporis doloremque! Eligendi, neque est. Soluta eligendi ipsa suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate atque, pariatur recusandae adipisci et perferendis possimus, veritatis aliquam nisi nostrum, vel omnis assumenda minus quam. Eligendi excepturi aspernatur beatae at. </p>
+                <p> Este projeto tem como principal objetivo apresentar aos jovens na faixa etária entre 15 e 16 anos que estarão ingressando na escola profissional sobre os cursos técnicos oferecidos pela instituição e mostrar os impactos causados pela falta de informação sobre eles. </p>
             </div>
         </div>
     </div>

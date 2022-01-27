@@ -10,12 +10,11 @@
                     <div class="main-third__subjects">
                         <h4>Disciplinas:</h4>
                         <ul>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
+                            <li>Estratégia de Produção</li>
+                            <li>Logística Empresarial</li>
+                            <li>Gestão de Vendas</li>
+                            <li>Responsabilidade Sócioambiental</li>
+                            <li>Estágio Curricular</li>
                         </ul>
                     </div>
                 </b-col>
@@ -23,12 +22,11 @@
                     <div class="main-third__hours">
                         <h4>Horas:</h4>
                         <ul>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>60 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>300 HORAS</li>
                         </ul>
                     </div>
                 </b-col>

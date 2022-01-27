@@ -9,13 +9,12 @@
                 <b-col>
                     <div class="main-third__subjects">
                         <h4>Disciplinas:</h4>
-                        <ul>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
+                        <ul>   
+                            <li>Assistência ao Paciente Cirúrgico</li>
+                            <li>Assistência ao Paciente Crítico </li>
+                            <li>Laboratório de Práticas de Enfermage</li>
+                            <li>Estágio Curricular I </li>
+                            <li>Estágio Curricular II </li>
                         </ul>
                     </div>
                 </b-col>
@@ -23,12 +22,11 @@
                     <div class="main-third__hours">
                         <h4>Horas:</h4>
                         <ul>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>80 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>200 HORAS</li>
+                            <li>400 HORAS</li>
                         </ul>
                     </div>
                 </b-col>

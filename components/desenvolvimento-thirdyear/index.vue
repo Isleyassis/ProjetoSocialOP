@@ -10,12 +10,11 @@
                     <div class="main-third__subjects">
                         <h4>Disciplinas:</h4>
                         <ul>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
+                            <li>Qualidade e Testes de Softwares</li>
+                            <li>Desenvolvimento de Aplicações para Dispositivos Móveis</li>
+                            <li>Projeto Integrador</li>
+                            <li>Gestão de Startups III</li>
+                            <li>Estágio Curricular</li>
                         </ul>
                     </div>
                 </b-col>
@@ -23,12 +22,11 @@
                     <div class="main-third__hours">
                         <h4>Horas:</h4>
                         <ul>
+                            <li>40 HORAS</li>
                             <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
+                            <li>120 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>300 HORAS</li>
                         </ul>
                     </div>
                 </b-col>
