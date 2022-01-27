@@ -11,19 +11,14 @@
                     <div class="main-second__subjects">
                         <h4>Disciplinas:</h4>
                         <ul>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
-                            <li>Informática Basica</li>
+                            <li>Contabilidade de Custos</li>
+                            <li>Matemática Financeira</li>
+                            <li>Legislação Empresarial e Tributária</li>
+                            <li>Administração do Capital de Giro</li>
+                            <li>Mercado de Capitais</li>
+                            <li>Informática Aplicada à Gestão Financeira</li>
+                            <li>Administração Financeira</li>
+                            <li>Contabilidade Gerencial</li>
                         </ul>
                     </div>
                 </b-col>
@@ -31,19 +26,14 @@
                     <div class="main-second__hours">
                         <h4>Horas:</h4>
                         <ul>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
-                            <li>100 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>60 HORAS</li>
+                            <li>60 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>40 HORAS</li>
+                            <li>60 HORAS</li>
+                            <li>60 HORAS</li>
+                            <li>40 HORAS</li>
                         </ul>
                     </div>
                 </b-col>

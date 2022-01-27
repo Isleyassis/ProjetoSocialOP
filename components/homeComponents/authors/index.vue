@@ -10,15 +10,19 @@
                     <b-row>
                         <b-col cols-lg='4'>
                             <ul>
-                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
-                                    {{ part.students }} 
+                                <li v-for="(part, index) in participantsWriters" :key="index"> 
+                                    <a v-if="index % 2 !== 0">
+                                        {{ part.students }}
+                                    </a>
                                 </li>
                             </ul>
                         </b-col>
                         <b-col cols-lg='4'> 
                             <ul>
-                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
-                                    {{ part.students }} 
+                                <li v-for="(part, index) in participantsWriters" :key="index"> 
+                                    <a v-if="index % 2 === 0">
+                                        {{ part.students }}
+                                    </a>
                                 </li>
                             </ul>  
                         </b-col>
@@ -42,15 +46,19 @@
                         </b-col>
                         <b-col cols-lg='4'>
                             <ul>
-                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
-                                    {{ part.students }} 
+                                 <li v-for="(part, index) in participantsDevelopers" :key="index"> 
+                                    <a v-if="index % 2 !== 0">
+                                        {{ part.students }}
+                                    </a> 
                                 </li>
                             </ul>
                         </b-col>
                         <b-col cols-lg='4'> 
                             <ul>
-                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
-                                    {{ part.students }} 
+                                <li v-for="(part, index) in participantsDevelopers" :key="index"> 
+                                    <a v-if="index % 2 === 0">
+                                        {{ part.students }}
+                                    </a>
                                 </li>
                             </ul>  
                         </b-col>
@@ -64,15 +72,19 @@
                     <b-row>
                         <b-col cols-lg='4'>
                             <ul>
-                                <li v-for="(part, index) in participantsSeparated" :key="index"> 
-                                    {{ part.students }} 
+                                <li v-for="(part, index) in participantsResearchers" :key="index"> 
+                                    <a v-if="index % 2 !== 0">
+                                        {{ part.students }}
+                                    </a>
                                 </li>
                             </ul>
                         </b-col>
                         <b-col cols-lg='4'> 
                             <ul>
-                                 <li v-for="(part, index) in participantsSeparated" :key="index"> 
-                                    {{ part.students }} 
+                                 <li v-for="(part, index) in participantsResearchers" :key="index"> 
+                                    <a v-if="index % 2 === 0">
+                                        {{ part.students }}
+                                    </a>
                                 </li>
                             </ul>  
                         </b-col>
@@ -95,7 +107,7 @@
                     <b-row>
                         <b-col cols='6'>
                             <ul>
-                                <li v-for="(part, index) in participantsTogether" :key="index"> 
+                                <li v-for="(part, index) in participantsWriters" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
@@ -120,7 +132,7 @@
                         </b-col>
                         <b-col cols='6'>
                             <ul>
-                                <li v-for="(part, index) in participantsTogether" :key="index"> 
+                                <li v-for="(part, index) in participantsDevelopers" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
@@ -135,7 +147,7 @@
                     <b-row>
                         <b-col cols="6">
                             <ul>
-                                <li v-for="(part, index) in participantsTogether" :key="index"> 
+                                <li v-for="(part, index) in participantsResearchers" :key="index"> 
                                     {{ part.students }} 
                                 </li>
                             </ul>
@@ -157,44 +169,88 @@
 export default {
     data() {
         return {
-            participantsSeparated: [
+            participantsWriters: [
                 {
-                    students: 'John Herbert Martins Frota'
+                    students: 'CAIO DOS SANTOS FERREIRA'
                 },
                 {
-                    students: 'Michael Paulino de Souza'
+                    students: 'ERICK DE LIMA SILVA'
                 },
                 {
-                    students: 'Rodrigo da Silva Lima'
+                    students: 'FRANCISCA LETICIA LIMA DA SILVA'
                 },
                 {
-                    students: 'Widson Ferreira dos Santos'
+                    students: 'FRANCISCO GABRIEL MACHADO ALBUQUERQUE'
+                },
+                {
+                    students: 'JOHN HERBERT MARTINS FROTA'
+                },
+                {
+                    students: 'MICHAEL PAULINO DE SOUSA'
+                },
+                {
+                    students: 'RODRIGO DA SILVA LIMA'
+                },
+                {
+                    students: 'WIDSON FERREIRA DOS SANTOS'
+                }      
+            ],
+             participantsDevelopers: [
+                {
+                    students: 'AMANDA MARTINS MACHADO'
+                },
+                {
+                    students: 'ANA VITORIA FERREIRA DA SILVA'
+                },
+                {
+                    students: 'ARYEL CORDEIRO RAMOS GONÇALVES'
+                },
+                {
+                    students: 'EZEQUIAS OLIVEIRA BERNARDO'
+                },
+                {
+                    students: 'ISLEY BARBOSA DE ASSIS'
+                },
+                {
+                    students: 'JOAO PEDRO DE SOUSA FREITAS'
+                },
+                {
+                    students: 'KAYQUE VIANA DO NASCIMENTO'
+                },
+                {
+                    students: 'NATANAEL ALVES DE LIMA'
+                },
+                {
+                    students: 'RAFAEL NUNES DE SOUSA'
+                },
+                {
+                    students: 'RAFAEL ROCHA DE OLIVEIRA XAVIER'
                 }
             ],
-            participantsTogether: [
-               {
-                    students: 'John Herbert Martins Frota'
+             participantsResearchers: [
+                {
+                    students: 'EDINARDO RODRIGUES LEITE FILHO'
                 },
                 {
-                    students: 'Michael Paulino de Souza'
+                    students: 'ERIC RAMON GARCIA DOS SANTOS'
                 },
                 {
-                    students: 'Rodrigo da Silva Lima'
+                    students: 'IAGO RAFAEL PINHEIRO PONCIANO'
                 },
                 {
-                    students: 'Widson Ferreira dos Santos'
-                },
-                 {
-                    students: 'John Herbert Martins Frota'
+                    students: 'JOSE GABRIEL DE ANDRADE SILVA'
                 },
                 {
-                    students: 'Michael Paulino de Souza'
+                    students: 'JOSE GUILHERME DA SILVEIRA BARROSO'
                 },
                 {
-                    students: 'Rodrigo da Silva Lima'
+                    students: 'MATHEUS DO  NASCIMENTO FERNANDES'
                 },
                 {
-                    students: 'Widson Ferreira dos Santos'
+                    students: 'VINICIUS LEITE TEIXEIRA'
+                },
+                {
+                    students: 'YAN GUERRA DOS SANTOS'
                 }
             ],
         }

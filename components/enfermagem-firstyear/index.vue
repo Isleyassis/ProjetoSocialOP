@@ -12,14 +12,14 @@
                             <h4>Disciplinas:</h4>
                             <ul>
                                 <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
+                                <li>Introdução à Profissão, Legislação e Bioética</li>
+                                <li>Políticas de Saúde</li>
+                                <li>Promoção, Prevenção e Vigilância em Saúde</li>
+                                <li>Anatomia e Fisiologia Humana Básica</li>
+                                <li>Educação em Saúde e Práticas Integrativas</li>
+                                <li>Saúde e Segurança no Trabalho</li>
+                                <li>Gestão em Saúde e Redes de Atenção</li>
+                                <li>Saúde Coletiva</li>
                             </ul>
                         </div>
                     </b-col>
@@ -27,15 +27,15 @@
                         <div class="main-first__hours">
                             <h4>Horas:</h4>
                             <ul>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
+                               <li>100 HORAS</li>
+                                <li>60 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>60 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>60 HORAS</li>
                             </ul>
                         </div>
                     </b-col>

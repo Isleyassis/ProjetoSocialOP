@@ -12,14 +12,10 @@
                             <h4>Disciplinas:</h4>
                             <ul>
                                 <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
+                                <li>Introdução ao Curso Técnico e Ética Profissional</li>
+                                <li>Contabilidade Aplicada</li>
+                                <li>Fundamentos de Marketing</li>
+                                <li>Direito Empresaria</li>
                             </ul>
                         </div>
                     </b-col>
@@ -28,14 +24,10 @@
                             <h4>Horas:</h4>
                             <ul>
                                 <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>60 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>60 HORAS</li>
                             </ul>
                         </div>
                     </b-col>

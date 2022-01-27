@@ -11,15 +11,10 @@
                         <div class="main-first__subjects">
                             <h4>Disciplinas:</h4>
                             <ul>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
-                                <li>Informática Basica</li>
+                                <li>Informática Básica</li>
+                                <li>Lógica de Programação</li>
+                                <li>Planejamento de Carreira</li>
+                                <li>Arquitetura e Manutenção de Computadores</li>
                             </ul>
                         </div>
                     </b-col>
@@ -29,13 +24,8 @@
                             <ul>
                                 <li>100 HORAS</li>
                                 <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
-                                <li>100 HORAS</li>
+                                <li>40 HORAS</li>
+                                <li>80 HORAS</li>
                             </ul>
                         </div>
                     </b-col>
@@ -129,7 +119,7 @@
             right: 0;
             bottom: 0;
             top: 15px;
-            width: 200px;
+            width: 150px;
 
             img {
                 width: 100%;
