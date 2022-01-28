@@ -3,7 +3,7 @@
         <b-container>
             <b-navbar class="main-header__nav">
                 <div class="main-header__nav-wrapper">
-                    <a href="#">HOME</a>
+                    <nuxt-link to="/">HOME</nuxt-link>
                     <b-dropdown class="main-header__nav-dropdown" variant="link" no-caret>
                         <template #button-content>
                            <p class="main-header__cousers text">CURSOS</p>  <span class="sr-only">Search</span>
