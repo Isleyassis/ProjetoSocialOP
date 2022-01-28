@@ -9,7 +9,9 @@
             </div>
             <div class="main-objective__wrapper-text">           
                 <h4>NOSSO OBJETIVO</h4>
-                <p> Este projeto tem como principal objetivo apresentar aos jovens na faixa etária entre 15 e 16 anos que estarão ingressando na escola profissional sobre os cursos técnicos oferecidos pela instituição e mostrar os impactos causados pela falta de informação sobre eles. </p>
+                <p>
+                    Nos últimos tempos, ficou visível que os alunos ao ingressarem na EEEP ONÉLIO PORTO não possuem quase nenhum conhecimento sobre os cursos técnicos que irão adentrar, e muita das vezes não conhecem as próprias diretrizes da escola. Ocorre-se que durante o decorrer de sua trajetória, diversos alunos abandonam o curso, pois não conseguem acompanhar as disciplinas apresentadas durante todo o caminho. Entendendo que a etapa escolar é a base para a correção dessas lacunas de conhecimento técnico, nos propomos a realizar um projeto social que contribua de forma positiva para o ambiente escolar, auxiliando aos novos alunos que estarão ingressando na escola nos próximos anos. Logo, Este projeto tem como principal objetivo apresentar aos jovens na faixa etária entre 15 e 16 anos que estarão ingressando na escola profissional sobre os cursos técnicos oferecidos pela instituição.
+                </p>
             </div>
         </div>
     </div>
