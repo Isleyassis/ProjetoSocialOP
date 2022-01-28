@@ -2,11 +2,14 @@
     <div class="depoimento">
         <div class="container">
             <div class="img">
-                <img src="../../static/Mentor do Curso.png" alt="">
+                <img src="../../static/Raquel.jpg" alt="">
             </div>
             <div class="apresentacao">
-                <h2>Nome do professor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at risus aliquam, dignissim tellus a, mattis augue. Fusce bibendum tristique varius. Vivamus eu felis nisi. Sed vitae lectus eu turpis lobortis eleifend vitae at magna. Aenean vehicula massa imperdiet interdum pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis hendrerit mauris at efficitur. Duis tortor leo, consequat non ligula at, sollicitudin sagittis nulla. Aliquam diam massa, mollis ut laoreet non, accumsan eget nunc. Cras ut dictum neque, nec suscipit sapien. Nullam et eros quis mauris interdum accumsan aliquet eu ex.</p>
+                <h2><b>Profª: Raquel Macedo</b></h2>
+                <div class="d-flex curriculo">
+                    <small>Graduada e Licenciada em Enfermagem com especialização em Sáude da Família e Docência Profissional.</small>
+                </div>
+                <p>No curso de enfermagem em regime integral, o aluno além de aprender sobre procedimentos técnicos próprios da assistência prestada por técnicos em enfermagem, fortalece a importância da humanização e da responsabilidade social enquanto cidadão. É um curso que tem grande necessidade no mercado de trabalho, sendo de fácil contratação, contribuindo para a independência financeira, transformações de vida, incentivo e possibilidades para capacitações maiores, além de ter grande relevância na prática social devido a construção humana e essencialmente profissional, super recomendo, por conta da grande contribuição na formação humana considerando a visão e percepção holística do outro. Além da questão política que requer muita luta, resiliência e estudo para valorização da profissão e do ser cidadão!</p>
             </div>
             
         </div>
@@ -41,6 +44,11 @@
                         width: 70%;
                     }
                 }
+            }
+
+            .curriculo {
+                flex-direction: column;
+                margin-bottom: 1.5rem;
             }
             
             

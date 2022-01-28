@@ -2,11 +2,16 @@
     <div class="depoimento">
         <div class="container">
             <div class="img">
-                <img src="../../static/Mentor do Curso.png" alt="">
+                <img src="../../static/Nildete.jpg" alt="">
             </div>
             <div class="apresentacao">
-                <h2>Nome do professor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at risus aliquam, dignissim tellus a, mattis augue. Fusce bibendum tristique varius. Vivamus eu felis nisi. Sed vitae lectus eu turpis lobortis eleifend vitae at magna. Aenean vehicula massa imperdiet interdum pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis hendrerit mauris at efficitur. Duis tortor leo, consequat non ligula at, sollicitudin sagittis nulla. Aliquam diam massa, mollis ut laoreet non, accumsan eget nunc. Cras ut dictum neque, nec suscipit sapien. Nullam et eros quis mauris interdum accumsan aliquet eu ex.</p>
+                <h2><b>Profª Nildete Ramos</b></h2>
+                <div class="d-flex curriculo">
+                    <small>Graduada em Tecnologia em Informática na Educação.</small>
+                    <small>Graduada em Pedagogia</small>
+                    <small>Com especialização em aperfeiçoamento em docência na Educação Profissional e Especialista em Mídias na Educação.</small>
+                </div>
+                <p>Ao ingressar no curso técnico de informática ou desenvolvimento de sistema o aluno terá oportunidade de conhecer e trabalhar com as mais variáveis áreas de informática... Terá oportunidade de conhecer e aprender a fazer programas, jogos, página web, fazer manutenção de computadores, aprender a fazer banco de dados, aplicativos para mobile entre outros. E para formar profissionais responsáveis, proativos, determinados, autônomos e colaboradores. Os alunos do curso aprenderão a trabalhar com as diversas linguagens de programação, visando desenvolver projetos de criação e manutenção de websites</p>
             </div>
             
         </div>
@@ -43,7 +48,10 @@
                 }
             }
             
-            
+            .curriculo {
+                flex-direction: column;
+                margin-bottom: 1.5rem;
+            }
 
             .apresentacao {
                 height: 100%;

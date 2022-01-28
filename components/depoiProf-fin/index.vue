@@ -2,11 +2,14 @@
     <div class="depoimento">
         <div class="container">
             <div class="img">
-                <img src="../../static/Mentor do Curso.png" alt="">
             </div>
             <div class="apresentacao">
-                <h2>Nome do professor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at risus aliquam, dignissim tellus a, mattis augue. Fusce bibendum tristique varius. Vivamus eu felis nisi. Sed vitae lectus eu turpis lobortis eleifend vitae at magna. Aenean vehicula massa imperdiet interdum pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis hendrerit mauris at efficitur. Duis tortor leo, consequat non ligula at, sollicitudin sagittis nulla. Aliquam diam massa, mollis ut laoreet non, accumsan eget nunc. Cras ut dictum neque, nec suscipit sapien. Nullam et eros quis mauris interdum accumsan aliquet eu ex.</p>
+                <h2><b>Profª: Sandra Nogueira</b></h2>
+                <div class="d-flex curriculo">
+                    <small>Bacharel em Ciências Contábeis e possui 2 especializações, uma em Gestão Pública pela UNILAB e outra em Auditoria e Controladoria (UNIC).</small>
+                    <small>Bacharel em Direito (sétimo semestre) e possui conhecimentos em francês</small>
+                </div>
+                <p>O curso de finanças é um curso que visualiza muito de forma bem ampla a questão do fluxo de caixa, abrange a área contabél de forma geral, a diferença entre finanças e contabilidade é que a finanças vê a parte de um todo de Contabilidade(é como se fosse um grande guarda-roupa) e finanças vê parte desse guarda-roupa metaforicamente falando, requisitos para finanças é basicamente fluxo de caixa, entrada e saída de dinheiro, o aluno de finanças tem que gostar muito de organização e matemática. Finanças vê a parte de movimentação do dinheiro da empresa. O mercado de trabalho, tem muita demanda e muita oferta e visualiza essa parte de capitais. E recomendo sim o curso para os alunos, pois cada final de fechamento de curso, os meninos migram para ciências contábeis, e sempre temos bons resultados como por exemplo a aluna Yara Joyce, aluna aprovada para PM(feminina) está concluindo Ciências Contábeis, neste semestre (2022.1) Ela foi aluna da turma de Finanças(2013-2015)</p>
             </div>
             
         </div>
@@ -43,7 +46,10 @@
                 }
             }
             
-            
+            .curriculo {
+                flex-direction: column;
+                margin-bottom: 1.5rem;
+            }
 
             .apresentacao {
                 height: 100%;

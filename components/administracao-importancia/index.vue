@@ -6,26 +6,7 @@
                 <div class="main_container___text">
                 <h1>QUAL A IMPORTÂNCIA DO CURSO DE ADMINISTRAÇÃO?</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Phasellus vel tincidunt ligula. Morbi posuere ac neque ac viverra. 
-                    Nunc a mattis risus, eu accumsan quam. Phasellus id posuere nulla. 
-                    Curabitur volutpat magna eget eros eleifend aliquam. 
-                    Quisque vitae eros in ante cursus tincidunt in et metus. 
-                    Etiam feugiat rutrum purus nec lobortis. 
-                    Aliquam erat volutpat. 
-                    Cras nec urna libero. 
-                    Etiam ut tortor ut mi congue tristique.
-                    Ut tempor tellus nunc, at commodo massa varius sed. 
-                    Duis id egestas purus. 
-                    Duis pulvinar, mauris quis accumsan varius, eros lacus volutpat lacus, ac facilisis urna arcu in lectus. 
-                    Donec a iaculis nibh. Ut ullamcorper id purus quis condimentum. 
-                    Praesent scelerisque dolor elit. 
-                    Donec posuere pretium blandit. 
-                    Donec faucibus ante in tortor dignissim cursus. 
-                    Sed felis ante, tristique ut ligula ac, vestibulum consectetur est.
-                    Sed nisi enim, hendrerit eget ligula vel, lobortis pharetra leo. 
-                    Nullam vestibulum libero lacus, ac consequat tellus laoreet ut. 
-                    Sed ornare, dolor id luctus sagittis, ex.
+                    Ao se formar Técnico em Administração, o profissional tem um bom entendimento de como diversas áreas de um negócio trabalham. É possível ter uma ideia clara das funções dos setores financeiro, de recursos humanos, comercial, logístico, administrativo, entre outros, e como eles se integram na rotina da companhia.
                 </p>
                 </div>
             </b-col>
@@ -43,6 +24,8 @@
 .main_container{
     padding-top: 30px;
 background-color: rgb(224, 147, 2);
+
+margin-bottom: 7rem;
 }
 
 .main_container___text{

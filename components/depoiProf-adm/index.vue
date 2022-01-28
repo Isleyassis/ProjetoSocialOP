@@ -1,13 +1,6 @@
 <template>
     <div class="depoimento">
         <div class="container">
-            <div class="img">
-                <img src="../../static/Mentor do Curso.png" alt="">
-            </div>
-            <div class="apresentacao">
-                <h2>Nome do professor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at risus aliquam, dignissim tellus a, mattis augue. Fusce bibendum tristique varius. Vivamus eu felis nisi. Sed vitae lectus eu turpis lobortis eleifend vitae at magna. Aenean vehicula massa imperdiet interdum pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis hendrerit mauris at efficitur. Duis tortor leo, consequat non ligula at, sollicitudin sagittis nulla. Aliquam diam massa, mollis ut laoreet non, accumsan eget nunc. Cras ut dictum neque, nec suscipit sapien. Nullam et eros quis mauris interdum accumsan aliquet eu ex.</p>
-            </div>
             
         </div>
         
