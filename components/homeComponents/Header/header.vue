@@ -3,7 +3,7 @@
         <b-container>
             <b-navbar class="main-header__nav">
                 <div class="main-header__nav-wrapper">
-                    <a href="#">HOME</a>
+                    <a href="index">HOME</a>
                     <b-dropdown class="main-header__nav-dropdown" variant="link" no-caret>
                         <template #button-content>
                            <p class="main-header__cousers text">CURSOS</p>  <span class="sr-only">Search</span>
@@ -19,7 +19,7 @@
             <div class="central">
                 <div class="main-header__text"> 
                     <h3>PROJETO SOCIAL</h3>
-                    <h1>TITULO DO <br> PROJETO</h1>
+                    <h1>INFORONELIO</h1>
                     <p>EEEP PROFESSOR ONÉLIO PORTO - INFORMÁTICA 3 2021</p>
                 </div>    
             </div>
