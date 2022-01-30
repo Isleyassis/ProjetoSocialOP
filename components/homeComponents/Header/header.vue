@@ -3,7 +3,7 @@
         <b-container>
             <b-navbar class="main-header__nav">
                 <div class="main-header__nav-wrapper">
-                    <nuxt-link to="/">HOME</nuxt-link>
+                    <nuxt-link to="#" class="button-active">HOME</nuxt-link>
                     <b-dropdown class="main-header__nav-dropdown" variant="link" no-caret>
                         <template #button-content>
                            <p class="main-header__cousers text">CURSOS</p>  <span class="sr-only">Search</span>
@@ -11,7 +11,7 @@
                         <b-dropdown-item class="text" href="desenvolvimento">Desenvolvimento</b-dropdown-item>
                         <b-dropdown-item class="text" href="enfermagem">Enfermagem</b-dropdown-item>
                         <b-dropdown-item class="text" href="administração">Administração</b-dropdown-item>
-                        <b-dropdown-item class="text" href="finanças">finanças</b-dropdown-item>
+                        <b-dropdown-item class="text" href="finanças">Finanças</b-dropdown-item>
                     </b-dropdown>
                 </div>
             </b-navbar>
@@ -45,6 +45,10 @@
 
         a, .text {
             font-size: 25px;
+
+            @media(max-width: 992px) {
+                font-size: 16px;
+            }
         }
 
         &__nav {

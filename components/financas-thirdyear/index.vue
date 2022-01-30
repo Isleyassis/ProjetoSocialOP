@@ -6,7 +6,7 @@
             </div>
 
             <b-row>
-                <b-col>
+                <b-col cols="8" lg="6">
                     <div class="main-third__subjects">
                         <h4>Disciplinas:</h4>
                         <ul>
@@ -17,7 +17,7 @@
                         </ul>
                     </div>
                 </b-col>
-                <b-col>
+                <b-col cols="4" lg="6">
                     <div class="main-third__hours">
                         <h4>Horas:</h4>
                         <ul>
@@ -98,6 +98,7 @@
 
                  li {
                     @media(max-width: 930px) {
+                      padding-top: 2px;
                       font-size: 0.8rem;
                     }
                 }

@@ -11,7 +11,7 @@
                         <b-dropdown-item class="text" href="desenvolvimento">Desenvolvimento</b-dropdown-item>
                         <b-dropdown-item class="text" href="enfermagem">Enfermagem</b-dropdown-item>
                         <b-dropdown-item class="text" href="administração">Administração</b-dropdown-item>
-                        <b-dropdown-item class="text" href="finanças">finanças</b-dropdown-item>
+                        <b-dropdown-item class="text" href="finanças">Finanças</b-dropdown-item>
                     </b-dropdown>
                 </div>
             </b-navbar>

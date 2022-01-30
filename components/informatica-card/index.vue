@@ -12,7 +12,7 @@
                     <img src="Icone Destaque 1 (1).png" alt="">
                 </figure>
                 <div class="anatomia_container__infos">
-                    <p>Anatomia e Fisiologia Humana Básica</p>
+                    <p>Lógica de programação</p>
                 </div>
             </div>
             </b-col>
@@ -23,7 +23,7 @@
                     <img src="Icone Destaque 2 (1).png" alt="">
                 </figure>
                 <div class="saude_container__infos">
-                    <p>Saúde Mental</p>
+                    <p>Design de Interface e Usabilidade</p>
                 </div>
             </div>
             </b-col>
@@ -34,7 +34,7 @@
                     <img src="Icone Destaque 3 (1).png" alt="">
                 </figure>
                 <div class="lab_container__infos">
-                   <p>Laboratório de Práticas de Enfermagem</p> 
+                   <p>Desenvolvimento de Aplicação para Dispositiveis Moveis</p> 
                 </div>
             </div>
             </b-col>
