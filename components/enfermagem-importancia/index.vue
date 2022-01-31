@@ -10,7 +10,7 @@
                 </p>
                 </div>
             </b-col>
-            <b-col lg="3">
+            <b-col lg="3" class="main_wrapper-container">
                 <figure class="main_container___img">
                     <img src="../../static/soro.png" alt="">
                 </figure>
@@ -23,9 +23,14 @@
 
 .main_container{
     padding-top: 30px;
-background-color: rgb(121, 184, 189);
+    background-color: rgb(121, 184, 189);
+    margin-bottom: 7rem;
+    overflow: hidden;
+    padding-bottom: 40px;
 
-margin-bottom: 7rem;
+    @media(max-width: 992px) {
+        padding-bottom: 0px;
+    }
 }
 
 .main_container___text{
@@ -52,21 +57,36 @@ margin-bottom: 7rem;
 
 }
 
+.main_wrapper-container {
+    @media(max-width: 992px) {
+        & {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
 .main_container___img{
-    height: 445px;
-    width: 445px;
+    height: 100%;
+    width: 100%;
     position: relative;
-    
     
     @media(max-width: 992px) {
         & {
-            height: 420px;
-            width: 420px;
+            max-height: 294px;
+            max-width: 378px;
+            margin: 0;
+        }
+    }
+    @media(max-width: 400px) {
+        & {
+            height: 100%;
+            width: 100%;
+            padding-bottom: 50px;
         }
     }
     img{
         height: 100%;
         width: 100%;
     }
-}
+}}
 </style>
