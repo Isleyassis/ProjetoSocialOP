@@ -118,6 +118,12 @@
     flex-direction: column;
     margin-top: 98px;
     position: relative;
+
+     @media (max-width: 992px) {
+         & {
+           margin-top: 70px;
+        }
+    }
 }
 .economia_container, .financeira_container{
     padding: 0px 50px;

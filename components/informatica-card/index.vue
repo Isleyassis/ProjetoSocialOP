@@ -118,6 +118,12 @@
     flex-direction: column;
     margin-top: 98px;
     position: relative;
+
+     @media (max-width: 992px) {
+         & {
+           margin-top: 70px;
+        }
+    }
 }
 .anatomia_container, .saude_container{
     padding: 0px 50px;
@@ -130,8 +136,8 @@
 .anatomia_container figure,
 .saude_container figure,
 .lab_container figure{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 270px;
+    max-height: 270px;
     margin: 0;
     position: absolute;
     top: 5px;

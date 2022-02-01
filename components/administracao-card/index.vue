@@ -107,7 +107,10 @@
 .gestao p, .recursos p, .teoria p{
     font-size: 20px;
     text-align: center;
+
+   
 }
+
 .gestao_container, .recursos_container, .teoria_container{
     width: 325px;
     height: 365px;
@@ -118,6 +121,12 @@
     flex-direction: column;
     margin-top: 98px;
     position: relative;
+
+     @media (max-width: 992px) {
+         & {
+           margin-top: 70px;
+        }
+    }
 }
 .gestao_container, .teoria_container{
     padding: 0px 50px;
@@ -130,14 +139,15 @@
 .gestao_container figure,
 .teoria_container figure,
 .recursos_container figure{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 180px;
+    max-height: 180px;
     margin: 0;
     position: absolute;
-    top: 5px;
+    top: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
 
     img {
         width: 100%;
@@ -145,19 +155,26 @@
     }
 }
 
+.recursos_container figure{
+    top: 70px;
+}
+
+.gestao_container figure{
+    top: 90px;
+}
 .recursos_container__infos{ 
     position: absolute;
-    bottom: 15px;
+    bottom: 30px;
     text-align: center;
 }
 
 .teoria_container__infos {
     text-align: center;
-    margin-top: 230px;
+    margin-top: 250px;
 }
 
 .gestao_container__infos {
-    margin-top: 250px;
+    margin-top: 210px;
     text-align: center;
 }
 
