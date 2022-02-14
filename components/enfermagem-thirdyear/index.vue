@@ -4,7 +4,9 @@
             <div class="main-third__title">
                 <h1> 3º Ano </h1>
             </div>
-
+            <div class="main-third__wrapper-img2">
+                <img src="icone3 2.png" alt="">
+            </div>
             <b-row>
                 <b-col cols="8" lg="6">
                     <div class="main-third__subjects">
@@ -34,9 +36,7 @@
             <div class="main-third__wrapper-img1">
                 <img src="icone3 1.png" alt="">
             </div>
-            <div class="main-third__wrapper-img2">
-                <img src="icone3 2.png" alt="">
-            </div>
+           
         </b-container>
     </div>
 </template>
@@ -81,6 +81,9 @@
                 @media(max-width: 930px) {
                     font-size: 1.2rem;
                 }
+            }
+                @media(min-width: 1024px){
+                padding-left: 70px;
             }
         }
 

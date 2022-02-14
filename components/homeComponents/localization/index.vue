@@ -100,7 +100,7 @@
     @media (max-width: 992px) {
          & {
             bottom: 5%;
-            left: 32%;
+            left: 26%;
         }
     }
 }
