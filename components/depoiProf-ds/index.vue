@@ -4,10 +4,10 @@
             <div class="img">
                 <img src="../../static/Nildete.jpg" alt="">
             </div>
-            <div class="apresentacao">
+            <div class="apresentacao-nil">
                 <h2><b>Profª Nildete Ramos</b></h2>
-                <div class="d-flex curriculo">
-                    <small>Graduada em Tecnologia em Informática na Educação.</small>
+                <div class="d-flex curriculo-nil">
+                    <small>Graduado em Análise de Sistemas.</small>
                     <small>Graduada em Pedagogia</small>
                     <small>Com especialização em aperfeiçoamento em docência na Educação Profissional e Especialista em Mídias na Educação.</small>
                 </div>
@@ -15,8 +15,18 @@
             </div>
             
         </div>
+
+        <div class="container">
+            <div class="apresentacao-jal">
+                <h2><b>Prof Jalyson </b></h2>
+                <div class="d-flex curriculo-jal">
+                    <small>Graduado em Análise de Sistemas.</small>
+                </div>
+                <p>O curso possui a oportunidade na inserção ao mercado de trabalho, ser desafiado, dinâmico, trabalhar em equipe e comunicativo, a área da ciência da computação é um dos setores que mais crescem no país e paga bons salários</p>
+            </div>
         
     </div>
+</div>
 </template>
 
 <style scoped lang="scss">
@@ -48,12 +58,39 @@
                 }
             }
             
-            .curriculo {
+            .curriculo-nil {
                 flex-direction: column;
                 margin-bottom: 1.5rem;
             }
 
-            .apresentacao {
+            .apresentacao-nil {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    font-size: 15.7px;
+                    @media (max-width: 550px) {
+                        font-size: 12.3px;
+                    }
+                }
+                
+                @media (max-width: 820px) {
+                    margin-top: 2rem;
+                }
+            }
+
+             .curriculo-jal {
+                flex-direction: column;
+                margin-bottom: 1.5rem;
+            }
+
+            .apresentacao-jal {
+                // remove esses dois quando colocar a imagem
+                 margin-top: 60px;
+                 
+                //  os de cima ai
                 height: 100%;
                 display: flex;
                 flex-direction: column;

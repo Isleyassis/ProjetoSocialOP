@@ -1,6 +1,9 @@
 <template>
     <div class="main-second">
         <div class="main-second__wrapper">
+                <div class="main-second__wrapper-img">
+                <img src="icone2 - administração.png" alt="">
+            </div>
             <b-container>
             <div class="main-second__title">
                 <h1> 2º Ano </h1>
@@ -43,9 +46,7 @@
                 </b-col>
             </b-row>
             </b-container>
-            <div class="main-second__wrapper-img">
-                <img src="icone2 - administração.png" alt="">
-            </div>
+        
         </div>
     </div>
 </template>
@@ -97,6 +98,13 @@
                     font-size: 1.2rem;
                 }
             }
+
+              @media(min-width: 1024px){
+                padding-left: 140px;
+            }
+            @media(min-width: 1200px){
+                padding-left: 160px;
+            }
         }
 
         &__subjects {
@@ -130,8 +138,8 @@
             left: 0;
             bottom: 0;
             top: 50px;
-            max-width: 200px;
-            max-height: 300px;
+            max-width: 180px;
+            max-height: 270px;
 
             img {
                 width: 100%;

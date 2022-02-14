@@ -1,13 +1,18 @@
 <template>
     <div class="main-second">
         <div class="main-second__wrapper">
+             
             <b-container>
+                
             <div class="main-second__title">
                 <h1> 2º Ano </h1>
             </div>
+             <div class="main-second__wrapper-img">
+                <img src="icone2.png" alt="">
+            </div>
             
             <b-row>
-                <b-col cols="8" lg="6">
+                <b-col cols="8" lg="8">
                     <div class="main-second__subjects">
                         <h4>Disciplinas:</h4>
                         <ul>
@@ -25,7 +30,7 @@
                         </ul>
                     </div>
                 </b-col>
-                <b-col cols="4" lg="6">
+                <b-col cols="4" lg="4">
                     <div class="main-second__hours">
                         <h4>Horas:</h4>
                         <ul>
@@ -45,9 +50,7 @@
                 </b-col>
             </b-row>
             </b-container>
-            <div class="main-second__wrapper-img">
-                <img src="icone2.png" alt="">
-            </div>
+          
         </div>
     </div>
 </template>
@@ -99,6 +102,12 @@
                     font-size: 1.2rem;
                 }
             }
+              @media(min-width: 1024px){
+                padding-left: 140px;
+            }
+            @media(min-width: 1200px){
+                padding-left: 140px;
+            }
         }
 
         &__subjects {
@@ -132,7 +141,8 @@
             left: 0;
             bottom: 0;
             top: 15px;
-            width: 200px;
+            max-height: 400px;
+            max-width: 300px;
 
             img {
                 width: 100%;
